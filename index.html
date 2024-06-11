@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html style="background: linear-gradient(rgb(24,40,81), black); background-repeat: no-repeat; background-attachment: fixed;">
+    <head>
+        <title>
+            UniUB
+        </title>
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <link rel="stylesheet" href="/css/homepage.css">
+        <meta name="description" content="Unblocked games site for school!">
+        <meta name="keywords" content="Unblocked Games, Games, Unblocked, School, Proxy, Game, Website, Games website, tyrones unblocked games, crazy games, armor games, kongregate, github io, github, universal ub, universal unblocker, uniub, UniUB, Uni UB, Universal UB">
+    </head>
+    <body>
+        <div id="content">
+            <div id="changelog" style="opacity: 0; transform: translateY(9999px);">
+                <button onclick="changelog()" style="text-align: center; position: absolute; transform: translateX(562.5px) translateY(-12.5px); border: 3px solid black; border-radius: 15px; height: 50px; width: 50px; background-color: rgb(32, 45, 65); font-size: 32px;">
+                    X
+                </button>
+                <center>
+                    <br>
+                    <h2 class="header">
+                        Changelog
+                    </h2>
+                    <br>
+                    <h2 class="header">
+                        Uniub v2.0
+                    </h2>
+                    <h2>
+                        Overhauled site for the second time
+                    </h2>
+                    <h2>
+                        Added A TON more games
+                    </h2>
+                    <h2>
+                        Replaced NES emulator with EmulatorJS (30+ emulators in one)
+                    </h2>
+                    
+                </center>
+            </div>
+            <div id="settings" style="opacity: 0; transform: translateY(9999px);">
+                <button onclick="settings()" style="text-align: center; position: absolute; transform: translateX(562.5px) translateY(-12.5px); border: 3px solid black; border-radius: 15px; height: 50px; width: 50px; background-color: rgb(32, 45, 65); font-size: 32px;">
+                    X
+                </button>
+                <center>
+                    <br>
+                    <h2 class="header">
+                        Settings
+                    </h2>
+                    <br>
+                    <h2>
+                        Extended Name: <input id="namecheck" onclick='changename(this)' type="checkbox">
+                    </h2>
+                    <h2>
+                        Refresh splash msg: <button onclick="refreshSplashMsg()">Refresh</button>
+                    </h2>
+                </center>
+            </div>
+            <h1 id="title">Uni UB</h1>
+            <h2 id="randomtext" style="font-size: 24px;">
+                Lorem ipsum dlor sumet
+            </h2>
+            <br>
+            <div id="navbar" style="margin: 5px;"> 
+                <h2><a href="./pages/apps.html">Apps</a></h2>
+                <h2><a href="./pages/games.html">Games</a></h2>
+                <h2><a href="./pages/methods.html">Methods</a></h2>
+                <h2><a href="/pages/unblockers.html">Unblockers</a></h2>
+                <h2><a href="/pages/emulator.html">Emulator</a></h2>
+                <h2 onclick="settings()">Settings</h2>
+            </div>
+            <div id="smallnav">
+                <h1 onclick="changelog()" style="font-size: 24px; margin: auto;">
+                    Changelog
+                </h1>
+            </div>
+        </div>
+        <div id="particles-js" style="height: 100vh; width: 100vw; position: fixed;"></div>
+    </body>
+</html>
+<script src="/modules/particles.js"></script>
+<script src="/modules/particleconfig.js"></script>
+<script src="/js/settings.js"></script>
+<script src="/js/homepage.js"></script>
