@@ -31,6 +31,13 @@
                     </h2>
                     <br><br><br>
                     <h2 class="header">
+                        Uniub v2.02
+                    </h2>
+                    <h2>
+                        Added proper site cloaking with 4 options, docs, drive, classroom and clever. note: More will be added later
+                    </h2>
+                    <br><br><br>
+                    <h2 class="header">
                         Uniub v2.01
                     </h2>
                     <h2>
@@ -65,8 +72,18 @@
                     <h2>
                         Extended Name: <input id="namecheck" onclick='changename(this)' type="checkbox">
                     </h2>
+                    <br>
                     <h2>
                         Refresh splash msg: <button onclick="refreshSplashMsg()">Refresh</button>
+                    </h2>
+                    <br>
+                    <h2 class="header">
+                        Cloaks
+                    </h2>
+                    <br>
+                    <h2>
+                        <button onclick="cloak('clever')">Clever</button><button onclick="cloak('drive')">Drive</button><button onclick="cloak('docs')">Docs</button><button onclick="cloak('classroom')">Classroom</button><button onclick="cloak('reset')">Reset</button>
+                    </h2>
                     </h2>
                 </center>
             </div>
@@ -95,4 +112,5 @@
 <script src="/modules/particles.js"></script>
 <script src="/modules/particleconfig.js"></script>
 <script src="/js/settings.js"></script>
+<script src="/js/cloak.js"></script>
 <script src="/js/homepage.js"></script>

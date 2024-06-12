@@ -56,3 +56,23 @@ function aboutblank(){
     iframe.src = url;
     win.document.body.appendChild(iframe);
 }
+
+function cloak(tocloak){
+    localStorage.clear("cloak")
+    if (tocloak == "clever"){
+        localStorage.setItem("cloak", "clever");
+    }
+    if (tocloak == "drive"){
+        localStorage.setItem("cloak", "drive");
+    }
+    if (tocloak == "docs"){
+        localStorage.setItem("cloak", "docs");
+    }
+    if (tocloak == "classroom"){
+        localStorage.setItem("cloak", "classroom");
+    }
+    if (tocloak == "reset"){
+        localStorage.setItem("cloak", "reset");
+    }
+    updatecloak()
+}
