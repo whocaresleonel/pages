@@ -50,5 +50,7 @@ document.addEventListener('DOMContentLoaded', function () {
         iframe.src = "/gamefiles/suikagame/index.html";
     } else if (currentgame == "fnf") {
         iframe.src = "/gamefiles/fnf/index.html";
+    } else if (currentgame == "precisionmc") {
+        iframe.src = "/gamefiles/precisionmc/web/index.html";
     }
 })
