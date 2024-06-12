@@ -31,7 +31,7 @@ html, body {
 
 #smallbar{
     height: 75px;
-    width: 200px;w
+    width: 200px;
     background-color: rgba(33, 58, 92, 0.4);
     border-radius: 25px;
     border: 2px solid black;
@@ -45,7 +45,6 @@ iframe{
     width: 85vw;
     border-radius: 50px;
     line-height: 85vh;
-    background-color: black;
 }
 
 #games{
