@@ -331,7 +331,7 @@ document.addEventListener('DOMContentLoaded', function () {
 })
 
 function types(){
-    if (type == "rammerhead"){
+    if (type == "rh"){
         id = window.prompt("Which Rammerhead url would you like to access? pick a number 1-" + rammerheadurls.length)
         iframe.style.backgroundColor = "white";
         url = rammerheadurls[id - 1]
@@ -411,6 +411,9 @@ function aboutblanker(){
     }
     if (type == "utopia"){
         url = utopiaurls[id-1]
+    }
+    if (type == "rh"){
+        url = rammerheadurls[id-1]
     }
     if (type == "static"){
         url = staticurls[id-1]
