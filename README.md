@@ -1,6 +1,8 @@
 # **Universal UB 2.01!**
 **200+ proxies**
 
+**About blank version of the site**
+
 <br><br><br><br>
 
 # **Universal UB 2.0!**

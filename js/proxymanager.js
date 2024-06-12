@@ -1,4 +1,9 @@
-var baseurl = "https://" + ("%40".repeat(150))
+const params = new URLSearchParams(window.location.search);
+const iframe = document.getElementById("gameframe");
+const fullscreenButton = document.getElementById("fullscreen");
+var baseurl = "https://" + ("%40".repeat(150)) + "@"
+let id
+let type
 
 const rammerheadurls = [
     "https://sparkledog.happymosaic.ru/",
@@ -314,18 +319,18 @@ const miscurls = [
   
   
 document.addEventListener('DOMContentLoaded', function () {
-    const params = new URLSearchParams(window.location.search);
-    const iframe = document.getElementById("gameframe");
-    const fullscreenButton = document.getElementById("fullscreen");
-    let type = params.get('type');
-    let id = params.get('id');
+    type = params.get('type');
+    id = params.get('id');
 
     fullscreenButton.addEventListener("click", myFunction);
 
     function myFunction() {
      iframe.requestFullscreen()
     }
+    types()
+})
 
+function types(){
     if (type == "rammerhead"){
         id = window.prompt("Which Rammerhead url would you like to access? pick a number 1-" + rammerheadurls.length)
         iframe.style.backgroundColor = "white";
@@ -386,4 +391,37 @@ document.addEventListener('DOMContentLoaded', function () {
         url = miscurls[id - 1]
         iframe.src = url;
     }
-})
+}
+
+function aboutblanker(){
+    if (type == "sodium"){
+        url = sodiumurls[id-1]
+    }
+    if (type == "doge"){
+        url = dogeurls[id-1]
+    }
+    if (type == "tinfoil"){
+        url = tinfoilurls[id-1]
+    }
+    if (type == "shadow"){
+        url = shadowurls[id-1]
+    }
+    if (type == "shuttle"){
+        url = shuttleurls[id-1]
+    }
+    if (type == "utopia"){
+        url = utopiaurls[id-1]
+    }
+    if (type == "static"){
+        url = staticurls[id-1]
+    }
+    if (type == "misc"){
+        url = miscurls[id-1]
+    }
+    url = url.replace("https://", "")
+    window.open(baseurl + url)
+}
+
+function redo(){
+    types()
+}
