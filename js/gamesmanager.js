@@ -52,7 +52,5 @@ document.addEventListener('DOMContentLoaded', function () {
         iframe.src = "/gamefiles/suikagame/index.html";
     } else if (currentgame == "fnf") {
         iframe.src = "/gamefiles/fnf/index.html";
-    } else if (currentgame == "ultraviolet") {
-        iframe.src = "https://8080-cs-150154369975-default.cs-us-east1-rtep.cloudshell.dev/?authuser=0";
     }
 })
