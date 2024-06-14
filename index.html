@@ -16,18 +16,44 @@
             </h1>
         </div>
         <div id="content">
-            <div id="changelog" style="opacity: 0; transform: translateY(9999px); overflow-y: scroll; overflow-x: hidden;">
-                <button onclick="changelog()" style="text-align: center; position: absolute; transform: translateX(538.5px); border: 3px solid black; border-radius: 15px; height: 50px; width: 50px; background-color: rgb(32, 45, 65); font-size: 32px;">
+            <a style="transform: translateX(calc(35px - 50vw)) translateY(calc(50vh - 35px)); position: absolute;" href="https://discord.gg/nX6sWSa9HE"><img src="/images/discord.svg" style="width: 50px; height: 50px;"></a>
+            <div id="changelog" style="opacity: 0; transform: translateY(9999px); overflow-y: scroll; overflow-x: hidden; width: 700px;">
+                <button onclick="changelog()" style="text-align: center; position: absolute; transform: translateX(638.5px); border: 3px solid black; border-radius: 15px; height: 50px; width: 50px; background-color: rgb(32, 45, 65); font-size: 32px;">
                     X
                 </button>
                 <center>
                     <br>
+                    <br><br><br>
                     <h1 style="font-size:48px;">
                         Changelog
                     </h1>
-                    <br><br><br>
+                    <br>
+                    <h2 class="header">
+                        Uniub v2.03
+                    </h2>
                     <h2>
-                        Discord: <a href="https://discord.gg/nX6sWSa9HE">click here</a>
+                        Styling changes in Games
+                    </h2>
+                    <h2>
+                        Imported 5/6 methods into the methods page
+                    </h2>
+                    <h2>
+                        Added @PDF to the unblockers page
+                    </h2>
+                    <h2>
+                        Moved where the discord was (From settings to the bottom left of homepage)
+                    </h2>
+                    <h2>
+                        Added utilities to the settings tab of homepage
+                    </h2>
+                    <h2>
+                        About blank cloaker (any tab) ^
+                    </h2>
+                    <h2>
+                        Open URL In current window (for kiosk exploits)
+                    </h2>
+                    <h2>
+                        Open URL In newtab
                     </h2>
                     <br><br><br>
                     <h2 class="header">
@@ -56,11 +82,11 @@
                     <h2>
                         Replaced NES emulator with EmulatorJS (30+ emulators in one)
                     </h2>
-                    
+                    <br><br>
                 </center>
             </div>
-            <div id="settings" style="opacity: 0; transform: translateY(9999px);">
-                <button onclick="settings()" style="text-align: center; position: absolute; transform: translateX(562.5px) translateY(-12.5px); border: 3px solid black; border-radius: 15px; height: 50px; width: 50px; background-color: rgb(32, 45, 65); font-size: 32px;">
+            <div id="settings" style="opacity: 0; transform: translateY(9999px); overflow-x: scroll; height: 650px;">
+                <button onclick="settings()" style="text-align: center; position: absolute; transform: translateX(538.5px); border: 3px solid black; border-radius: 15px; height: 50px; width: 50px; background-color: rgb(32, 45, 65); font-size: 32px;">
                     X
                 </button>
                 <center>
@@ -78,13 +104,41 @@
                     </h2>
                     <br>
                     <h2 class="header">
+                        Utilities
+                    </h2>
+                    <br>
+                    <h2>Open in new tab</h2>
+                    <br>
+                    <h2>
+                        <input class="inputtext" id="newtab" placeholder="https://www.google.com" type="text">
+                    </h2>
+                    <br>
+                    <button style="height: 50px;" onclick="openinnewtab()">Submit</button>
+                    <br><br>
+                    <h2>Open in current window</h2>
+                    <br>
+                    <h2>
+                        <input class="inputtext" id="currenttab" placeholder="https://www.google.com" type="text">
+                    </h2>
+                    <br>
+                    <button style="height: 50px;" onclick="openincurrentwindow()">Submit</button>
+                    <br><br>
+                    <h2>Open in about blank</h2> 
+                    <br>
+                    <h2>
+                        <input class="inputtext" id="aboutblanktab" placeholder="https://www.google.com" type="text">
+                    </h2>
+                    <br>
+                    <button style="height: 50px;" onclick="openinaboutblank()">Submit</button>
+                    <br><br>
+                    <h2 class="header">
                         Cloaks
                     </h2>
                     <br>
                     <h2>
                         <button onclick="cloak('clever')">Clever</button><button onclick="cloak('drive')">Drive</button><button onclick="cloak('docs')">Docs</button><button onclick="cloak('classroom')">Classroom</button><button onclick="cloak('reset')">Reset</button>
                     </h2>
-                    </h2>
+                    <br><br>
                 </center>
             </div>
             <h1 id="title">Uni UB</h1>

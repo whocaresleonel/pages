@@ -88,6 +88,14 @@ button{
     padding-right: 25px;
 }
 
+.inputtext{
+    width: 200px;
+    height: 25px;
+    border-radius: 25px;
+    color: black;
+    padding: 15px;
+}
+
 #navbar *, #smallnav *{
     flex-grow: 1;
     border-radius: 50px;

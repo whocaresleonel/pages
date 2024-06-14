@@ -4,6 +4,10 @@
     width: 0px;
 }
 
+.padding{
+    padding: 25px;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -30,8 +34,8 @@ html, body {
 }
 
 #smallbar{
-    height: 75px;
     width: 200px;
+    height: 75px;
     background-color: rgba(33, 58, 92, 0.4);
     border-radius: 25px;
     border: 2px solid black;
@@ -63,18 +67,27 @@ iframe{
 }
 
 img{
-    height: 100%;
     width: 100%;
-    border-radius: 25px;
+    min-height: 125px;
+    max-height: 125px;
+    border-radius: 20px;
+    background-color: #1B2E53;
 }
 
 #game{
+    display: table;
+    padding: 0;
+    margin: 0;
     height: 125px;
+    max-height: 125px;
+    min-height: 125px;
     background-color: rgba(33, 58, 92, 0.4);
     border-radius: 25px;
     border: 2px solid black;
     margin: 15px;
-    width: 125px;
+    min-width: 125px;
+    max-width: 125px;
+    background-color: #1B2E53;
 }
 
 #gamerow{
@@ -106,6 +119,8 @@ button{
 
 a{
     text-decoration: none;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .header{

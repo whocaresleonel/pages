@@ -314,7 +314,9 @@ const miscurls = [
     "https://noctura.app/",
     "https://anura.mercurywork.shop/",
     "https://adrift-6c1f6.web.app/",
-    "https://englishdata.co/"
+    "https://englishdata.co/",
+    "https://xn--zkr.xn--72cg7bdd3bro6b3ab9c8btw4x.com/",
+    "https://intoabyss.org/"
 ];
   
   

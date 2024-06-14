@@ -1,3 +1,5 @@
+var baseurl = "https://" + ("%40".repeat(150)) + "@"
+
 document.addEventListener('DOMContentLoaded', function () {
     const params = new URLSearchParams(window.location.search);
     const iframe = document.getElementById("gameframe");
@@ -54,3 +56,13 @@ document.addEventListener('DOMContentLoaded', function () {
         iframe.src = "/gamefiles/precisionmc/web/index.html";
     }
 })
+
+function andpdf(){
+    var url = window.prompt("Put your url here (don't add https://www.) just have for ex 'discord.com'")
+
+    if (url === null){
+        return
+    }
+
+    window.open(baseurl + url);
+}
