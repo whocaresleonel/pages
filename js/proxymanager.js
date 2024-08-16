@@ -137,7 +137,12 @@ const rammerheadurls = [
     "https://ertgt45t.rammerhead.furkanpowered.com/",
     "https://mathcoding.styledcomputing.com/",
     "https://hehehehaw.ajalo.com/",
-    "https://bee-movie.minecraftnoob.com/"
+    "https://bee-movie.minecraftnoob.com/",
+    "https://rammer-if-5.dvrlists.com/",
+    "https://rammer-if-4.dvrlists.com/",
+    "https://rammer-if-3.dvrlists.com/",
+    "https://rammer-if-2.dvrlists.com/",
+    "https://rammer-if-1.dvrlists.com/"
 ];
 
 const interstellarurls = [
