@@ -1,4 +1,5 @@
 **Unimportant smaller updates: Added hit counter, added 5 new rammerhead proxies.**
+**ADDED Hit counter on 8/29/24**
 
 <br><br><br><br>
 
