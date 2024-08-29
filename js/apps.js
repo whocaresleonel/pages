@@ -1,6 +1,6 @@
 var baseurl = "https://" + ("%40".repeat(150)) + "@"
 
-// Ultraviolet 2.0 by Titanium Network
+// Ultraviolet 2.0 by Titanium Network (This is their "encryption" alg and its how I can use other sites hosted proxies :3 [If you're a site owner and are seeing this please let me know, I'll happily remove your site!])
 const xorEncode = {
     encode(str) {
         if (!str) return str;
@@ -25,7 +25,7 @@ function openapp(app){
     let url
     console.log(baseurl)
     if (app == "google"){
-        url = base[0] + xorEncode.encode("https://x.com")
+        url = base[0] + xorEncode.encode("https://google.com")
     }
     if (app == "twitter"){
         url = base[0] + xorEncode.encode("https://x.com")

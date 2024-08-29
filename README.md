@@ -1,5 +1,13 @@
-**Unimportant smaller updates: Added hit counter, added 5 new rammerhead proxies.**
-**ADDED Hit counter on 8/29/24**
+# **Universal UB v2.1**
+
+**Added some features that probably should've existed for a while now.**
+**"fixer" which fixes games that don't let you embed (iframe) them**
+**fixed mc1.8.8 and mc1.5.2 and removed precision mc because like 3 people used it one time**
+**Added slope & cookie clicker.**
+**Added a way to send responses and suggestions to me without joining the discord**
+**And all the pages actually scroll now lol**
+
+**No MIT app inventor exploit YET, it'll be out soon. just keep an eye out.**
 
 <br><br><br><br>
 
