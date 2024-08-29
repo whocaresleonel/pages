@@ -54,6 +54,7 @@ iframe{
 #games{
     display: flex;
     flex-direction: column;
+    height: 0px;
     width: 70vw;
     background-color: rgba(33, 58, 92, 0.4);
     border-radius: 25px;
