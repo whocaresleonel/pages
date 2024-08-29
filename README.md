@@ -1,3 +1,7 @@
+**Unimportant smaller updates: Added hit counter, added 5 new rammerhead proxies.**
+
+<br><br><br><br>
+
 # **Universal UB v2.03**
 
 **Styling changes in Games**
