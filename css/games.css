@@ -52,10 +52,10 @@ iframe{
     line-height: 85vh;
 }
 
-#games{
+#games {
     display: flex;
     flex-direction: column;
-    height: fit-content;
+    height: fit-content; /* This can cause issues, consider a fixed height */
     width: 70vw;
     background-color: rgba(33, 58, 92, 0.4);
     border-radius: 25px;
@@ -66,8 +66,10 @@ iframe{
     text-align: center;
     padding-left: 15px;
     padding-right: 15px;
-    overflow-y: auto;
+    overflow-y: auto; /* Ensure this is set */
+    overflow-x: hidden; /* To prevent horizontal scrolling */
 }
+
 
 img{
     width: 100%;
@@ -128,6 +130,13 @@ a{
 
 .header{
     font-size: 38px;
+}
+
+#container {
+    position: fixed;
+    height: 100vh; /* Ensure the height is set properly */
+    width: 100vw;
+    overflow: hidden; /* Ensure there is no overflow on the container */
 }
 
 #content {
