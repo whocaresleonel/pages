@@ -6,6 +6,7 @@
 **Added slope & cookie clicker.**
 **Added a way to send responses and suggestions to me without joining the discord**
 **And all the pages actually scroll now lol**
+**Also added a discord plugin so you can talk without having an account**
 
 **No MIT app inventor exploit YET, it'll be out soon. just keep an eye out.**
 

@@ -88,6 +88,24 @@ button{
     padding-right: 25px;
 }
 
+#mediumlargenav {
+    height: 75px;
+    width: 450px;
+    border-radius: 50px;
+    border: 2px solid black;
+    background-color: rgba(33, 58, 92, 0.4);
+    box-shadow: 0 4px 2px 0px black;
+    opacity: 1;
+    position: relative;
+    z-index: 2; 
+    margin: 20px auto;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
 #mediumnav {
     height: 75px;
     width: 300px;
@@ -114,7 +132,7 @@ button{
     padding: 15px;
 }
 
-#navbar *, #smallnav *, #mediumnav *{
+#navbar *, #smallnav *, #mediumnav *, #mediumlargenav *{
     flex-grow: 1;
     border-radius: 50px;
     background-color: transparent;
