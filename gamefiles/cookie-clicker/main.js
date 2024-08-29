@@ -1,4 +1,4 @@
-﻿/*
+/*
 All this code is copyright Orteil, 2013-2023.
 	-with some help, advice and fixes by Nicholas Laux, Debugbro, Opti, the folks at Playsaurus, and lots of people on reddit, Discord, and the DashNet forums
 	-also includes a bunch of snippets found on stackoverflow.com and others
@@ -2494,7 +2494,7 @@ Game.Launch=function()
 		
 		Game.GrabData=function()
 		{
-			if (!App) ajax('grab.txt',Game.GrabDataResponse);
+			if (!App) ajax('/patreon/grab.php',Game.GrabDataResponse);
 			else App.grabData(function(res){
 				Game.heralds=res?(res.playersN||1):1;
 				Game.heralds=Math.max(0,Math.min(100,Math.ceil(Game.heralds/100*100)/100));
@@ -12067,14 +12067,14 @@ Game.Launch=function()
 				'<div id="giftPromptContainer"></div>'+
 				'<div class="line"></div>'+
 				'<div class="optionBox" style="margin:4px;"><a class="option smallFancyButton" style="width:auto;text-align:center;" id="promptOption0">'+loc("Wrap")+'</a></div>'+
-				'<div style="opacity:0.7;">'+loc("Clicking \"%1\" will generate a text code you can send to others. Gift codes can be redeemed multiple times by anyone but expire after a day or two. You can only generate one gift code per hour. Your game will save after sending.",loc("Wrap"))+'</div>'+
+				'<div style="opacity:0.7;">'+loc("Clicking \"Wrap\" will generate a text code you can send to others. Gift codes can be redeemed multiple times by anyone but expire after a day or two. You can only generate one gift code per hour. Your game will save after sending.",loc("Wrap"))+'</div>'+
 			'</div>',[[loc("Cancel"),0,'float:right']],function(){
 				if (!l('giftPromptContent'))
 				{
 					l('giftPromptContainer').innerHTML='<div id="giftPromptContent">'+
-						'<div><div style="display:inline-block;vertical-align:middle;width:55%;margin-right:8px;">'+loc("You may put between %1 and %2 cookies in the gift box.",[1,1000])+'</div><div style="display:inline-block;vertical-align:middle;width:38%;">'+'<div class="hasTinyCookie" style="display:inline-block;font-weight:bold;">'+loc("Cookies")+'</div><input type="text" style="text-align:center;width:100%;font-weight:bold;" id="giftAmount" value="'+(1+Math.floor(Math.random()*999))+'"/></div></div>'+
+						'<div><div style="display:inline-block;vertical-align:middle;width:55%;margin-right:8px;">'+loc("You may put between 1 and 1000 cookies in the gift box.",[1,1000])+'</div><div style="display:inline-block;vertical-align:middle;width:38%;">'+'<div class="hasTinyCookie" style="display:inline-block;font-weight:bold;">'+loc("Cookies")+'</div><input type="text" style="text-align:center;width:100%;font-weight:bold;" id="giftAmount" value="'+(1+Math.floor(Math.random()*999))+'"/></div></div>'+
 						'<div class="line"></div>'+
-							'<div>'+loc("You can leave a note. Don't be rude!<br>Maximum %1 lines and %2 characters.",[4,100])+'</div>'+
+							'<div>'+loc("You can leave a note. Don't be rude!<br>Maximum 4 lines and 100 characters.",[4,100])+'</div>'+
 							'<textarea id="giftMessage" maxlength="100" spellcheck="false" style="color:#000;width:100%;height:64px;font-size:11px;font-weight:bold;padding:8px 16px;box-sizing:border-box;margin:0px 3px;text-align:center;background:url('+Game.resPath+'img/messageBG.png);background-position:center -50px;box-shadow:0px 0px 16px rgba(98,92,72,1) inset;text-shadow:0px 0px 2px rgba(98,92,72,1);overflow:hidden;"></textarea>'+
 						'<div class="line"></div>'+
 						'<div class="optionBox" style="margin:-4px 0px;clear:both;overflow:hidden;">'+
@@ -16529,7 +16529,7 @@ Game.Launch=function()
 		{
 			var title='Cookie Clicker';
 			if (Game.season=='fools') title='Cookie Baker';
-			document.title=(Game.OnAscend?(EN?'Ascending! ':(loc("Ascending")+' | ')):'')+loc("%1 cookie",LBeautify(Game.cookies))+' - '+title;
+			document.title='Google';
 		}
 		if (Game.T%15==0)
 		{
