@@ -3,7 +3,6 @@ Arizona
 Arizona State
 Arkansas
 Auburn
-Balls
 Baylor
 Boise State
 Boston College
@@ -47,7 +46,6 @@ Memphis
 Miami
 Michigan
 Michigan State
-Midwestern State University 
 Minnesota
 Mississippi State
 Missouri
