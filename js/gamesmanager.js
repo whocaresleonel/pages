@@ -82,7 +82,10 @@ document.addEventListener('DOMContentLoaded', function () {
     } else if (currentgame == "cookie-clicker") {
         urlToOpen = "/gamefiles/cookie-clicker/index.html";
         iframe.src = urlToOpen;
-    }  
+    } else if (currentgame == "mrmine") {
+        urlToOpen = "/gamefiles/mrmine/index.html";
+        iframe.src = urlToOpen;
+    } 
 })
 
 function andpdf(){
