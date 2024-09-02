@@ -85,6 +85,9 @@ document.addEventListener('DOMContentLoaded', function () {
     } else if (currentgame == "mrmine") {
         urlToOpen = "/gamefiles/mrmine/index.html";
         iframe.src = urlToOpen;
+    } else if (currentgame == "geometry-dash") {
+        urlToOpen = "/gamefiles/geometry-dash-lite/index.html";
+        iframe.src = urlToOpen;
     } 
 })
 
