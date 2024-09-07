@@ -88,7 +88,22 @@ document.addEventListener('DOMContentLoaded', function () {
     } else if (currentgame == "geometry-dash") {
         urlToOpen = "/gamefiles/geometry-dash-lite/index.html";
         iframe.src = urlToOpen;
-    } 
+    } else if (currentgame == "btd4") {
+        urlToOpen = "/gamefiles/btd4/index.html";
+        iframe.src = urlToOpen;
+    } else if (currentgame == "pvz") {
+        urlToOpen = "/gamefiles/pvz/index.html";
+        iframe.src = urlToOpen;
+    } else if (currentgame == "learntofly3") {
+        urlToOpen = "/gamefiles/learntofly3/index.html";
+        iframe.src = urlToOpen;
+    } else if (currentgame == "learntofly2") {
+        urlToOpen = "/gamefiles/learntofly2/index.html";
+        iframe.src = urlToOpen;
+    } else if (currentgame == "classicube") {
+        urlToOpen = "/gamefiles/classicube/index.html";
+        iframe.src = urlToOpen;
+    }
 })
 
 function andpdf(){

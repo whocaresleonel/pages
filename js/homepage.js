@@ -77,6 +77,17 @@ function cloak(tocloak){
     updatecloak()
 }
 
+function setbackgroundcolor(){
+    // I would add checks here but I'm pretty sure the type="color" tag does that for me :)
+    localStorage.setItem("backgroundColor", document.getElementById('backgroundcolor').value)
+    updatecloak()
+}
+
+function setpanickey(){
+    console.log(localStorage.setItem("panicKey", document.getElementById("panickey").value))
+    console.log(localStorage.setItem("panicUrl", document.getElementById("panicurl").value))
+}
+
 function openinaboutblank(){
     let abtab = document.getElementById("aboutblanktab").value
     url = abtab
