@@ -103,6 +103,18 @@ document.addEventListener('DOMContentLoaded', function () {
     } else if (currentgame == "classicube") {
         urlToOpen = "/gamefiles/classicube/index.html";
         iframe.src = urlToOpen;
+    } else if (currentgame == "escapingtheprison") {
+        urlToOpen = "/gamefiles/escapingtheprison/index.html";
+        iframe.src = urlToOpen;
+    } else if (currentgame == "stealingthediamond") {
+        urlToOpen = "/gamefiles/stealingthediamond/index.html";
+        iframe.src = urlToOpen;
+    } else if (currentgame == "infiltratingtheairship") {
+        urlToOpen = "/gamefiles/infiltratingtheairship/index.html";
+        iframe.src = urlToOpen;
+    } else if (currentgame == "fleeingthecomplex") {
+        urlToOpen = "/gamefiles/fleeingthecomplex/index.html";
+        iframe.src = urlToOpen;
     }
 })
 
