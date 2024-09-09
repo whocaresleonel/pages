@@ -82,17 +82,24 @@ img{
 #game{
     display: table;
     padding: 0;
-    margin: 0;
-    height: 125px;
+    height: 10vh;
+    width: 10vw;
     max-height: 125px;
-    min-height: 125px;
+    min-height: 50px;
     background-color: rgba(33, 58, 92, 0.4);
     border-radius: 25px;
     border: 2px solid black;
     margin: 15px;
-    min-width: 125px;
+    min-width: 50px;
     max-width: 125px;
     background-color: #1B2E53;
+}
+
+@media only screen and (max-width:600px){
+    #game{
+        margin: 5px;
+        font-size: 8px;
+    }
 }
 
 #gamerow{

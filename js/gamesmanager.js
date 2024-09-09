@@ -13,6 +13,8 @@ document.addEventListener('DOMContentLoaded', function () {
      iframe.requestFullscreen()
     }
 
+    //Guys I may or may not be yandere dev (don't look at this code please I should've used a switch but I'm too lazy to redo it)
+
     if (currentgame == "2048") {
         urlToOpen = "/gamefiles/2048/index.html";
         iframe.src = urlToOpen;
@@ -114,6 +116,9 @@ document.addEventListener('DOMContentLoaded', function () {
         iframe.src = urlToOpen;
     } else if (currentgame == "fleeingthecomplex") {
         urlToOpen = "/gamefiles/fleeingthecomplex/index.html";
+        iframe.src = urlToOpen;
+    } else if (currentgame == "armedforcesio") {
+        urlToOpen = "/gamefiles/armedforcesio/";
         iframe.src = urlToOpen;
     }
 })
