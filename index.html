@@ -34,136 +34,20 @@
                 <button onclick="changelog()" style="text-align: center; position: absolute; transform: translateX(638.5px); border: 3px solid black; border-radius: 15px; height: 50px; width: 50px; background-color: rgb(32, 45, 65); font-size: 32px;">
                     X
                 </button>
-                <center>
-                    <br>
-                    <br><br><br>
-                    <h1 style="font-size:48px;">
-                        Changelog
-                    </h1>
-                    <br>
-                    <h2 class="header">
-                        Uniub v2.12
-                    </h2>
-                    <h2>
-                        uhh I lied abt mit app inventor :3
-                    </h2>
-                    <h2>
-                        Fixed a few files missing from "Mr. Mine"
-                    </h2>
-                    <h2>
-                        Added PvZ, BTD4, Learn to fly 2, Learn to fly 3
-                    </h2>
-                    <h2>
-                        Added the first app, win11 (Windows 11 in react by blueedge)
-                    </h2>
-                    <h2>
-                        Added panic keys
-                    </h2>
-                    <h2>
-                        Added page customization (Will be worked on in a later update)
-                    </h2>
-                    <br><br><br>
-                    <br>
-                    <h2 class="header">
-                        Uniub v2.11
-                    </h2>
-                    <h2>
-                        Added Geometry dash lite and "Mr. Mine"
-                    </h2>
-                    <h2>
-                        Ability to scroll on game.html, ub.html and method.html pages
-                    </h2>
-                    <h2>
-                        Testing out ads (Most likely won't be permanent)
-                    </h2>
-                    <h2>
-                        Next update WILL have MIT app inventor and page customization :D
-                    </h2>
-                    <br><br><br>
-                    <h2 class="header">
-                        Uniub v2.1
-                    </h2>
-                    <h2>
-                        Added some features that probably should've existed for a while now.
-                    </h2>
-                    <h2>
-                        "fixer" which fixes games that don't let you embed (iframe) them
-                    </h2>
-                    <h2>
-                        fixed mc1.8.8 and mc1.5.2 and removed precision mc because like 3 people used it one time
-                    </h2>
-                    <h2>
-                        Added slope & cookie clicker.
-                    </h2>
-                    <h2>
-                        Added a way to send responses and suggestions to me without joining the discord
-                    </h2>
-                    <h2>
-                        And all the pages actually scroll now lol
-                    </h2>
-		    <h2>
-                        Also added a discord plugin so you can talk without having an account
-                    </h2>
-                    <h2>
-                        No MIT app inventor exploit YET, it'll be out soon. just keep an eye out.
-                    </h2>
-                    <br><br><br>
-                    <h2 class="header">
-                        Uniub v2.03
-                    </h2>
-                    <h2>
-                        Styling changes in Games
-                    </h2>
-                    <h2>
-                        Imported 5/6 methods into the methods page
-                    </h2>
-                    <h2>
-                        Added @PDF to the unblockers page
-                    </h2>
-                    <h2>
-                        Moved where the discord was (From settings to the bottom left of homepage)
-                    </h2>
-                    <h2>
-                        Added utilities to the settings tab of homepage
-                    </h2>
-                    <h2>
-                        About blank cloaker (any tab) ^
-                    </h2>
-                    <h2>
-                        Open URL In current window (for kiosk exploits)
-                    </h2>
-                    <h2>
-                        Open URL In newtab
-                    </h2>
-                    <br><br><br>
-                    <h2 class="header">
-                        Uniub v2.02
-                    </h2>
-                    <h2>
-                        Added proper site cloaking with 4 options, docs, drive, classroom and clever. note: More will be added later
-                    </h2>
-                    <br><br><br>
-                    <h2 class="header">
-                        Uniub v2.01
-                    </h2>
-                    <h2>
-                        Added over 200 proxies :D
-                    </h2>
-                    <br><br><br>
-                    <h2 class="header">
-                        Uniub v2.0
-                    </h2>
-                    <h2>
-                        Overhauled site for the second time
-                    </h2>
-                    <h2>
-                        Added A TON more games
-                    </h2>
-                    <h2>
-                        Replaced NES emulator with EmulatorJS (30+ emulators in one)
-                    </h2>
-                    <br><br>
-                </center>
+                <center><div id="markdown-content"></div></center>
+                <script src="https://cdn.jsdelivr.net/npm/marked@4.3.0/marked.min.js"></script>
+                <script>
+                    // Fetch the README.md file
+                    fetch('README.md')
+                        .then(response => response.text())
+                        .then(text => {
+                            // Convert the Markdown to HTML using the marked parser
+                            const htmlContent = marked.parse(text);
+                            // Insert the HTML into the page
+                            document.getElementById('markdown-content').innerHTML = htmlContent;
+                        })
+                        .catch(error => console.error('Error fetching markdown file:', error));
+                </script>
             </div>
             <div id="settings" style="opacity: 0; transform: translateY(9999px); overflow-x: scroll; height: 650px;">
                 <button onclick="settings()" style="text-align: center; position: absolute; transform: translateX(538.5px); border: 3px solid black; border-radius: 15px; height: 50px; width: 50px; background-color: rgb(32, 45, 65); font-size: 32px;">
@@ -177,6 +61,14 @@
                     <br>
                     <h2>
                         Extended Name: <input id="namecheck" onclick='changename(this)' type="checkbox">
+                    </h2>
+                    <br>
+                    <h2>
+                        Prevent leaving the site: <input id="leavesiteprotection" onclick='leavesiteprotection(this)' type="checkbox">
+                    </h2>
+                    <br>
+                    <h2>
+                        AutoCloak: <input id="autocloak" onclick='autocloak(this)' type="checkbox">
                     </h2>
                     <br>
                     <h2>

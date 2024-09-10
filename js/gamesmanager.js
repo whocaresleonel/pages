@@ -120,6 +120,9 @@ document.addEventListener('DOMContentLoaded', function () {
     } else if (currentgame == "armedforcesio") {
         urlToOpen = "/gamefiles/armedforcesio/";
         iframe.src = urlToOpen;
+    } else if (currentgame == "learntoflyidle") {
+        urlToOpen = "/gamefiles/learntoflyidle/";
+        iframe.src = urlToOpen;
     }
 })
 
@@ -138,7 +141,7 @@ function andpdf(){
 //This was revamped to add the gtag by chatgpt because I was in a rush (sowwy :3)
 
 function openURL() {
-    var url = "https://uniub.github.io" + urlToOpen;
+    var url = window.location.origin + urlToOpen;
 
     // Open a new window
     var win = window.open();

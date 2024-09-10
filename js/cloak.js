@@ -4,9 +4,38 @@ favicon.rel = "icon"
 
 function updatecloak(){
     cloakStorage = localStorage.getItem("cloak")
+    autoCloakStorage = localStorage.getItem("autoCloak")
+    preventLeavingSiteStorage = localStorage.getItem("leaveSiteProtection")
     bgStorage = localStorage.getItem("backgroundColor")
 
     document.getElementById('html').style.background = "linear-gradient(" + bgStorage + ", black)"
+
+    if (preventLeavingSiteStorage === "true"){
+        window.onbeforeunload = function() {
+            return true;
+        };
+    }
+
+    if (autoCloakStorage === "true") {
+        let abtab = window.location.href;
+        
+        let win = window.open('about:blank');
+        
+        win.document.body.style.margin = '0';
+        win.document.body.style.height = '100vh';
+        
+        let iframe = win.document.createElement('iframe');
+        iframe.style.border = 'none';
+        iframe.style.width = '100%';
+        iframe.style.height = '100%';
+        iframe.style.margin = '0';
+        iframe.src = abtab;
+        
+        win.document.body.appendChild(iframe);
+        
+        window.close();
+    }
+    
 
     if (cloakStorage == "drive"){
         document.title = "Home - Google Drive"
@@ -27,12 +56,6 @@ function updatecloak(){
     if (cloakStorage == "reset"){
         document.title = "UniUB"
         favicon.href = "/images/favicon.ico"
-    }
-
-    //Convenient changes to the homepage (in case your there) to show your previous thingys
-    if (window.location.pathname == "/index.html"){
-        document.getElementById("panickey").value = localStorage.getItem("panicKey")
-        document.getElementById("panicurl").value = localStorage.getItem("panicUrl")
     }
 
     document.head.appendChild(favicon)

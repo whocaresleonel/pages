@@ -17,9 +17,26 @@ document.getElementById("randomtext").innerHTML = textOptions[Math.floor(Math.ra
 
 function changename(cb){
     if (cb.checked){
-        title.innerHTML = "Universal UB"
+        localStorage.setItem("extendedName", true)
     } else{
-        title.innerHTML = "Uni UB"
+        localStorage.setItem("extendedName", false)
+    }
+    loadName()
+}
+
+function leavesiteprotection(lp){
+    if (lp.checked){
+        localStorage.setItem("leaveSiteProtection", true)
+    } else{
+        localStorage.setItem("leaveSiteProtection", false)
+    }
+}
+
+function autocloak(ac){
+    if (ac.checked){
+        localStorage.setItem("autoCloak", true)
+    } else{
+        localStorage.setItem("autoCloak", false)
     }
 }
 
@@ -120,3 +137,26 @@ function openincurrentwindow(){
         '_self'
       );
 }
+
+function loadName(){
+    if (localStorage.getItem("extendedName") == 'true'){
+        title.innerHTML = "Universal UB"
+    } else{
+        title.innerHTML = "Uni UB"
+    }
+}
+
+function changeVals() {
+    // Safely set the values only if the items exist in localStorage
+    document.getElementById("panickey").value = localStorage.getItem("panicKey") || "";
+    document.getElementById("panicurl").value = localStorage.getItem("panicUrl") || "";
+
+    document.getElementById("leavesiteprotection").checked = localStorage.getItem("leaveSiteProtection") === "true";
+    document.getElementById("namecheck").checked = localStorage.getItem("extendedName") === "true";
+    document.getElementById("autocloak").checked = localStorage.getItem("autoCloak") === "true";
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    changeVals();
+    loadName();
+});
