@@ -136,7 +136,11 @@ function andpdf(){
     window.open(baseurl + url);
 }
 
-
+function fixer(){
+    let choice = window.prompt("about:blank or standard? (Standard has a higher chance of fixing it) 1/2")
+    if (choice == 1){ openURL() }
+    if (choice == 2){ window.open(urlToOpen)}
+}
 
 //This was revamped to add the gtag by chatgpt because I was in a rush (sowwy :3)
 

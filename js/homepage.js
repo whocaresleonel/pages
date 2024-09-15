@@ -2,7 +2,7 @@ const title = document.getElementById("title")
 const textOptions = [
     "If somethings not working check your chrome version!",
     "Fun fact! This site has been taken down 3 Time(s)",
-    "Only tested on Chrome v114.0.5735.",
+    "Only tested on Chrome v114 & v120",
     "Join the discord server for new site URLs!",
     "Submit game suggestions in the discord server!",
     "Go to chrome://version to check your version!",
@@ -10,7 +10,10 @@ const textOptions = [
     "School admins < literally anyone",
     "Javascript is overrated",
     "Updates... sometimes?",
-    "Originally called PDFXPLOIT"
+    "Originally called PDFXPLOIT",
+    "Discord. Join. Now.",
+    "Made by a student for students :)",
+    "Securly ver 2.97.55 :("
 ];
 
 document.getElementById("randomtext").innerHTML = textOptions[Math.floor(Math.random() * textOptions.length)];

@@ -52,6 +52,15 @@ iframe{
     line-height: 85vh;
 }
 
+iframe.padding{
+    border: 3px solid #1B2E53;
+    border-radius: 20px;
+    width: 90%;
+    background-color: white;
+    height: 500px;
+    margin: 25px;
+}
+
 #games {
     display: flex;
     flex-direction: column;

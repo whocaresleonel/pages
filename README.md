@@ -1,5 +1,14 @@
 <br>
 
+# **Universal UB v2.14**
+
+**Added 2 goguard bypasses**
+**Added pdfv2**
+**Added caudns**
+**Fixed the fixer from not fixing**
+
+<br><br><br><br>
+
 # **Universal UB v2.13**
 
 **added new cloaking options**
