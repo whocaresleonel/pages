@@ -1,3 +1,5 @@
+**Fixed emulatorJS (emulators page)**
+
 <br>
 
 # **Universal UB v2.14**
