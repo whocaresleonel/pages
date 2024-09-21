@@ -171,12 +171,12 @@ function openURL() {
     };
 
     // Create and append the iframe
-    var iframe = win.document.createElement('iframe');
-    iframe.style.border = 'none';
-    iframe.style.width = '100%';
-    iframe.style.height = '100%';
-    iframe.style.margin = '0';
-    iframe.src = url;
-    win.document.body.appendChild(iframe);
+    var embed = win.document.createElement('embed');
+    embed.style.border = 'none';
+    embed.style.width = '100%';
+    embed.style.height = '100%';
+    embed.style.margin = '0';
+    embed.src = url;
+    win.document.body.appendChild(embed);
 }
 
