@@ -68,13 +68,13 @@ function aboutblank(){
     win = window.open();
     win.document.body.style.margin = '0';
     win.document.body.style.height = '100vh';
-    var iframe = win.document.createElement('iframe');
-    iframe.style.border = 'none';
-    iframe.style.width = '100%';
-    iframe.style.height = '100%';
-    iframe.style.margin = '0';
-    iframe.src = url;
-    win.document.body.appendChild(iframe);
+    var embed = win.document.createElement('embed');
+    embed.style.border = 'none';
+    embed.style.width = '100%';
+    embed.style.height = '100%';
+    embed.style.margin = '0';
+    embed.src = url;
+    win.document.body.appendChild(embed);
 }
 
 function cloak(tocloak){
@@ -114,13 +114,13 @@ function openinaboutblank(){
     win = window.open();
     win.document.body.style.margin = '0';
     win.document.body.style.height = '100vh';
-    var iframe = win.document.createElement('iframe');
-    iframe.style.border = 'none';
-    iframe.style.width = '100%';
-    iframe.style.height = '100%';
-    iframe.style.margin = '0';
-    iframe.src = url;
-    win.document.body.appendChild(iframe);
+    var embed = win.document.createElement('embed');
+    embed.style.border = 'none';
+    embed.style.width = '100%';
+    embed.style.height = '100%';
+    embed.style.margin = '0';
+    embed.src = url;
+    win.document.body.appendChild(embed);
 }
 
 function openinnewtab(){
