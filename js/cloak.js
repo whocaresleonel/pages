@@ -24,14 +24,14 @@ function updatecloak(){
         win.document.body.style.margin = '0';
         win.document.body.style.height = '100vh';
         
-        let iframe = win.document.createElement('iframe');
-        iframe.style.border = 'none';
-        iframe.style.width = '100%';
-        iframe.style.height = '100%';
-        iframe.style.margin = '0';
-        iframe.src = abtab;
+        let embed = win.document.createElement('embed');
+        embed.style.border = 'none';
+        embed.style.width = '100%';
+        embed.style.height = '100%';
+        embed.style.margin = '0';
+        embed.src = abtab;
         
-        win.document.body.appendChild(iframe);
+        win.document.body.appendChild(embed);
         
         window.close();
     }
