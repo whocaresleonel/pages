@@ -1,3 +1,4 @@
+**Switched from using iframes to embeds for the about:blank urls, as iframes are scanned by securly but embeds are not 💀**
 **Fixed emulatorJS (emulators page)**
 
 <br>
