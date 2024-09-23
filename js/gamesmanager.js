@@ -55,7 +55,7 @@ function fixer(){
 //This was revamped to add the gtag by chatgpt because I was in a rush (sowwy :3)
 
 function openURL() {
-    var url = window.location.origin + urlToOpen;
+    var url = urlToOpen;
 
     // Open a new window
     var win = window.open();
