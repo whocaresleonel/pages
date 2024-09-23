@@ -33,7 +33,7 @@ let gamedata = {
         "srcURL": "/gamefiles/minecraft-classic/index.html",
         "imgURL": "/images/thumbs/minecraft-classic.png",
         "pageURL": "/pages/game.html?game=minecraft-classic",
-        "name": "Minecraft Classic"
+        "name": "MC Classic"
     },
     "worlds-hardest-game": {
         "srcURL": "/gamefiles/worlds-hardest-game/index.html",
