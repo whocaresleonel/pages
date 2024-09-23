@@ -39,7 +39,7 @@ let gamedata = {
         "srcURL": "/gamefiles/worlds-hardest-game/index.html",
         "imgURL": "/images/thumbs/worlds-hardest-game.png",
         "pageURL": "/pages/game.html?game=worlds-hardest-game",
-        "name": "Worlds Hardest Game"
+        "name": "WhG"
     },
     "minecraft-1.5.2": {
         "srcURL": "/gamefiles/mc152/index.html",
@@ -69,7 +69,7 @@ let gamedata = {
         "srcURL": "/gamefiles/awesometanks2/index.html",
         "imgURL": "/images/thumbs/awesometanks2.png",
         "pageURL": "/pages/game.html?game=awesome-tanks-2",
-        "name": "Awesome Tanks 2"
+        "name": "Awesome Tanks"
     },
     "1v1lol": {
         "srcURL": "/gamefiles/1v1lol/index.html",
