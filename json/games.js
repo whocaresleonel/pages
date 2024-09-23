@@ -1,177 +1,218 @@
 let gamedata = {
+    "TestApp": {
+        "srcURL": "/",
+        "imgURL": "/images/classroom.svg",
+        "pageURL": "/",
+        "name": "TestApp"
+    },
     "2048": {
         "srcURL": "/gamefiles/2048/index.html",
         "imgURL": "/images/thumbs/2048.png",
-        "gameName": "2048"
+        "pageURL": "/pages/game.html?game=2048",
+        "name": "2048"
     },
     "cell-machine": {
         "srcURL": "/gamefiles/cell-machine/index.html",
         "imgURL": "/images/thumbs/cell-machine.png",
-        "gameName": "Cell Machine"
+        "pageURL": "/pages/game.html?game=cell-machine",
+        "name": "Cell Machine"
     },
     "death-run-3d": {
         "srcURL": "/gamefiles/death-run-3d/index.html",
         "imgURL": "/images/thumbs/death-run-3d.png",
-        "gameName": "Death run 3d"
+        "pageURL": "/pages/game.html?game=death-run-3d",
+        "name": "Death run 3d"
     },
     "krunker": {
         "srcURL": "/gamefiles/krunker/index.html",
         "imgURL": "/images/thumbs/krunker.png",
-        "gameName": "Krunker"
+        "pageURL": "/pages/game.html?game=krunker",
+        "name": "Krunker"
     },
     "learntofly": {
         "srcURL": "/gamefiles/learntofly/index.html",
         "imgURL": "/images/thumbs/learntofly.png",
-        "gameName": "Learn To Fly"
+        "pageURL": "/pages/game.html?game=learntofly",
+        "name": "Learn To Fly"
     },
     "minecraft-classic": {
         "srcURL": "/gamefiles/minecraft-classic/index.html",
         "imgURL": "/images/thumbs/minecraft-classic.png",
-        "gameName": "Minecraft Classic"
+        "pageURL": "/pages/game.html?game=minecraft-classic",
+        "name": "MC Classic"
     },
     "worlds-hardest-game": {
         "srcURL": "/gamefiles/worlds-hardest-game/index.html",
         "imgURL": "/images/thumbs/worlds-hardest-game.png",
-        "gameName": "Worlds Hardest Game"
+        "pageURL": "/pages/game.html?game=worlds-hardest-game",
+        "name": "WhG"
     },
     "minecraft-1.5.2": {
         "srcURL": "/gamefiles/mc152/index.html",
         "imgURL": "/images/thumbs/eaglercraft152.png",
-        "gameName": "Minecraft 1.5.2"
+        "pageURL": "/pages/game.html?game=minecraft-1.5.2",
+        "name": "Minecraft 1.5.2"
     },
     "minecraft-1.8.8": {
         "srcURL": "/gamefiles/mc188/index.html",
         "imgURL": "/images/thumbs/eaglercraft188.png",
-        "gameName": "Minecraft 1.8.8"
+        "pageURL": "/pages/game.html?game=minecraft-1.8.8",
+        "name": "Minecraft 1.8.8"
     },
     "bitlife": {
         "srcURL": "/gamefiles/bitlife/index.html",
         "imgURL": "/images/thumbs/bitlife.png",
-        "gameName": "Bitlife"
+        "pageURL": "/pages/game.html?game=bitlife",
+        "name": "Bitlife"
     },
     "retrobowl": {
         "srcURL": "/gamefiles/retrobowl/index.html",
         "imgURL": "/images/thumbs/retrobowl.png",
-        "gameName": "RetroBowl"
+        "pageURL": "/pages/game.html?game=retrobowl",
+        "name": "RetroBowl"
     },
     "awesome-tanks-2": {
         "srcURL": "/gamefiles/awesometanks2/index.html",
         "imgURL": "/images/thumbs/awesometanks2.png",
-        "gameName": "Awesome Tanks"
+        "pageURL": "/pages/game.html?game=awesome-tanks-2",
+        "name": "Awesome Tanks"
     },
     "1v1lol": {
         "srcURL": "/gamefiles/1v1lol/index.html",
         "imgURL": "/images/thumbs/1v1lol.png",
-        "gameName": "1v1.lol"
+        "pageURL": "/pages/game.html?game=1v1lol",
+        "name": "1v1.lol"
     },
     "webosu": {
         "srcURL": "/gamefiles/webosu/index.html",
         "imgURL": "/images/thumbs/webosu.png",
-        "gameName": "Webosu"
+        "pageURL": "/pages/game.html?game=webosu",
+        "name": "Webosu"
     },
     "sansbattlesimulator": {
         "srcURL": "/gamefiles/sansbattlesimulator/index.html",
         "imgURL": "/images/thumbs/sansbattlesimulator.png",
-        "gameName": "Sans battle sim"
+        "pageURL": "/pages/game.html?game=sansbattlesimulator",
+        "name": "Sans battle sim"
     },
     "suikagame": {
         "srcURL": "/gamefiles/suikagame/index.html",
         "imgURL": "/images/thumbs/suikagame.png",
-        "gameName": "Suika Clone"
+        "pageURL": "/pages/game.html?game=suikagame",
+        "name": "Suika Clone"
     },
     "fnf": {
         "srcURL": "/gamefiles/fnf/index.html",
         "imgURL": "/images/thumbs/fnf.png",
-        "gameName": "FnF"
+        "pageURL": "/pages/game.html?game=fnf",
+        "name": "FnF"
     },
     "sandboxels": {
         "srcURL": "/gamefiles/sandboxels/index.html",
         "imgURL": "/images/thumbs/sandboxels.png",
-        "gameName": "Sandboxels"
+        "pageURL": "/pages/game.html?game=sandboxels",
+        "name": "Sandboxels"
     },
     "slope": {
         "srcURL": "/gamefiles/slope/index.html",
         "imgURL": "/images/thumbs/slope.png",
-        "gameName": "Slope"
+        "pageURL": "/pages/game.html?game=slope",
+        "name": "Slope"
     },
     "cookie-clicker": {
         "srcURL": "/gamefiles/cookie-clicker/index.html",
         "imgURL": "/images/thumbs/cookieclicker.png",
-        "gameName": "Cookie Clicker"
+        "pageURL": "/pages/game.html?game=cookie-clicker",
+        "name": "Cookie Clicker"
     },
     "mrmine": {
         "srcURL": "/gamefiles/mrmine/index.html",
         "imgURL": "/images/thumbs/mrmine.png",
-        "gameName": "Mr. Mine"
+        "pageURL": "/pages/game.html?game=mrmine",
+        "name": "Mrmine"
     },
     "geometry-dash": {
         "srcURL": "/gamefiles/geometry-dash-lite/index.html",
         "imgURL": "/images/thumbs/geometry-dash.png",
-        "gameName": "Geometry Dash"
+        "pageURL": "/pages/game.html?game=geometry-dash",
+        "name": "Geometry Dash"
     },
     "btd4": {
         "srcURL": "/gamefiles/btd4/index.html",
         "imgURL": "/images/thumbs/btd4.png",
-        "gameName": "Btd4"
+        "pageURL": "/pages/game.html?game=btd4",
+        "name": "Btd4"
     },
     "pvz": {
         "srcURL": "/gamefiles/pvz/index.html",
         "imgURL": "/images/thumbs/pvz.png",
-        "gameName": "PvZ"
+        "pageURL": "/pages/game.html?game=pvz",
+        "name": "PvZ"
     },
     "learntofly3": {
         "srcURL": "/gamefiles/learntofly3/index.html",
         "imgURL": "/images/thumbs/learntofly3.png",
-        "gameName": "Learn to Fly 3"
+        "pageURL": "/pages/game.html?game=learntofly3",
+        "name": "Learn to Fly 3"
     },
     "learntofly2": {
         "srcURL": "/gamefiles/learntofly2/index.html",
         "imgURL": "/images/thumbs/learntofly2.png",
-        "gameName": "Learn to Fly 2"
+        "pageURL": "/pages/game.html?game=learntofly2",
+        "name": "Learn to Fly 2"
     },
     "classicube": {
         "srcURL": "/gamefiles/classicube/index.html",
         "imgURL": "/images/thumbs/classicube.png",
-        "gameName": "Classicube"
+        "pageURL": "/pages/game.html?game=classicube",
+        "name": "Classicube"
     },
     "escapingtheprison": {
         "srcURL": "/gamefiles/escapingtheprison/index.html",
         "imgURL": "/images/thumbs/escapingtheprison.png",
-        "gameName": "EtP"
+        "pageURL": "/pages/game.html?game=escapingtheprison",
+        "name": "EtP"
     },
     "stealingthediamond": {
         "srcURL": "/gamefiles/stealingthediamond/index.html",
         "imgURL": "/images/thumbs/stealingthediamond.png",
-        "gameName": "StD"
+        "pageURL": "/pages/game.html?game=stealingthediamond",
+        "name": "StD"
     },
     "infiltratingtheairship": {
         "srcURL": "/gamefiles/infiltratingtheairship/index.html",
         "imgURL": "/images/thumbs/infiltratingtheairship.png",
-        "gameName": "ItA"
+        "pageURL": "/pages/game.html?game=infiltratingtheairship",
+        "name": "ItA"
     },
     "fleeingthecomplex": {
         "srcURL": "/gamefiles/fleeingthecomplex/index.html",
         "imgURL": "/images/thumbs/fleeingthecomplex.png",
-        "gameName": "FtC"
+        "pageURL": "/pages/game.html?game=fleeingthecomplex",
+        "name": "FtC"
     },
     "armedforcesio": {
         "srcURL": "/gamefiles/armedforcesio/index.html",
         "imgURL": "/images/thumbs/armedforcesio.png",
-        "gameName": "Armedforces.io"
+        "pageURL": "/pages/game.html?game=armedforcesio",
+        "name": "Armedforces.io"
     },
     "learntoflyidle": {
         "srcURL": "/gamefiles/learntoflyidle/index.html",
         "imgURL": "/images/thumbs/learntoflyidle.png",
-        "gameName": "Learn to fly idle"
+        "pageURL": "/pages/game.html?game=learntoflyidle",
+        "name": "Learn to fly idle"
     },
-    "slowroadsio": {
-        "srcURL": "/gamefiles/slowroadsio/index.html",
+    "slowroads": {
+        "srcURL": "/gamefiles/slowroads/index.html",
         "imgURL": "/images/thumbs/slowroads.png",
-        "gameName": "Slowroads.io"
+        "pageURL": "/pages/game.html?game=slowroads",
+        "name": "Slowroads.io"
     },
     "snowrider3d": {
         "srcURL": "/gamefiles/snowrider3d/index.html",
         "imgURL": "/images/thumbs/snowrider3d.png",
-        "gameName": "Snow Rider 3D"
+        "pageURL": "/pages/game.html?game=snowrider3d",
+        "name": "Snow Rider 3D"
     }
 }
