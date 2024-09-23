@@ -1,7 +1,7 @@
 let gamedata = {
     "TestApp": {
         "srcURL": "/",
-        "imgURL": "/images/favicon.png",
+        "imgURL": "/images/classroom.svg",
         "pageURL": "/",
         "name": "TestApp"
     },
