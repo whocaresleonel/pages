@@ -163,5 +163,15 @@ let gamedata = {
         "srcURL": "/gamefiles/learntoflyidle/index.html",
         "imgURL": "/images/thumbs/learntoflyidle.png",
         "gameName": "Learn to fly idle"
+    },
+    "slowroadsio": {
+        "srcURL": "/gamefiles/slowroadsio/index.html",
+        "imgURL": "/images/thumbs/slowroads.png",
+        "gameName": "Slowroads.io"
+    },
+    "snowrider3d": {
+        "srcURL": "/gamefiles/snowrider3d/index.html",
+        "imgURL": "/images/thumbs/snowrider3d.png",
+        "gameName": "Snow Rider 3D"
     }
 }
