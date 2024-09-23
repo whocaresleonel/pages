@@ -202,5 +202,11 @@ let gamedata = {
         "imgURL": "/images/thumbs/learntoflyidle.png",
         "pageURL": "/pages/game.html?game=learntoflyidle",
         "name": "Learn to fly idle"
+    },
+    "slowroads": {
+        "srcURL": "/gamefiles/slowroads/index.html",
+        "imgURL": "add latr",
+        "pageURL": "/pages/game.html?game=slowroads",
+        "name": "Slowroads.io"
     }
 }
