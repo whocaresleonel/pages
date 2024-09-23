@@ -57,7 +57,7 @@ let gamedata = {
     "awesome-tanks-2": {
         "srcURL": "/gamefiles/awesometanks2/index.html",
         "imgURL": "/images/thumbs/awesometanks2.png",
-        "gameName": "Awesome Tanks 2"
+        "gameName": "Awesome Tanks"
     },
     "1v1lol": {
         "srcURL": "/gamefiles/1v1lol/index.html",
@@ -102,7 +102,7 @@ let gamedata = {
     "mrmine": {
         "srcURL": "/gamefiles/mrmine/index.html",
         "imgURL": "/images/thumbs/mrmine.png",
-        "gameName": "Mrmine"
+        "gameName": "Mr. Mine"
     },
     "geometry-dash": {
         "srcURL": "/gamefiles/geometry-dash-lite/index.html",
