@@ -1,4 +1,7 @@
+**Fixed formatting in README**
 **Experimental push, please report any bugs (NEW FORMATTING FOR ALL PAGES)**
+
+<br>
 
 # **Universal UB v2.15**
 
@@ -7,7 +10,7 @@
 **Added rigtools (UNBLOCK EVERYTHING :D)**
 **Added Mit AI2 Companion exploit (Webview bypass)**
 
-<br>
+<br><br><br><br>
 
 # **Universal UB v2.14**
 
