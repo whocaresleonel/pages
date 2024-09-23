@@ -8,9 +8,8 @@ if (window.location.pathname === "/pages/games.html"){
     for (let i = 0; i < Object.keys(json).length; i++){
         let keys = Object.keys(json)
         let currentObj = json[keys[i]]
-        let name = keys[i]
         let games = document.getElementById("gamerow");
-        games.innerHTML += ("<a href='/pages/game.html?game=" + name + "'><div id='game'><img src='" + currentObj.imgURL + "'><p>" + currentObj.gameName + "</p></div></a>")
+        games.innerHTML += ("<a href='" + currentObj.pageURL + "'><div id='game'><img src='" + currentObj.imgURL + "'><p>" + currentObj.name + "</p></div></a>")
     }
 }
 
@@ -56,7 +55,7 @@ function fixer(){
 //This was revamped to add the gtag by chatgpt because I was in a rush (sowwy :3)
 
 function openURL() {
-    var url = window.location.origin + urlToOpen;
+    var url = urlToOpen;
 
     // Open a new window
     var win = window.open();
