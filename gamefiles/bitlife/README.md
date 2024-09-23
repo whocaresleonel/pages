@@ -1,3 +1,0 @@
-# Bitlife
-
-### gamesforsite.github.io

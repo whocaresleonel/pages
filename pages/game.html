@@ -28,18 +28,19 @@
             <div onclick="fixer()" id="smallbar" style="margin-top: 5px; margin-left: 5px; position: absolute; height: 50px; transform: translateY(-60px) translateX(210px);">
                 <center><h2 id="fixer" style="line-height: 50px;">Fixer</h2></center>
             </div>
-            <div id="smallbar" style="margin-top: 5px; margin-left: 5px; position: absolute; height: 50px; transform: translateY(-60px) translateX(420px);">
+            <div onclick="document.getElementById('gameframe').requestFullscreen()" id="smallbar" style="margin-top: 5px; margin-left: 5px; position: absolute; height: 50px; transform: translateY(-60px) translateX(420px);">
                 <center><h2 id="fullscreen" style="line-height: 50px;">Fullscreen</h2></center>
             </div>
             <br><br><br><br>
             <div id="iframecontainer" style="transform: translateY(-5vh);">
                 <center>
-                    <iframe id="gameframe" src=""></iframe>
+                    <embed id="gameframe" src=""></embed>
                 </center>
             </div>
         </div>
     </body>
 </html>
+<script src="/json/games.js"></script>
 <script src="/js/gamesmanager.js"></script>
 <script src="/modules/particles.js"></script>
 <script src="/modules/particleconfig.js"></script>

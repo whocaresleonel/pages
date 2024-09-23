@@ -44,7 +44,7 @@ html, body {
     margin-left: 15px;
 }
 
-iframe{
+embed{
     border: 3px solid black;
     height: 85vh;
     width: 85vw;
@@ -52,7 +52,7 @@ iframe{
     line-height: 85vh;
 }
 
-iframe.padding{
+embed.padding{
     border: 3px solid #1B2E53;
     border-radius: 20px;
     width: 90%;
@@ -104,17 +104,10 @@ img{
     background-color: #1B2E53;
 }
 
-@media only screen and (max-width:600px){
-    #game{
-        margin: 5px;
-        width: 75px;
-        height: 75px;
-        font-size: 8px;
-    }
-}
-
 #gamerow{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #padding{
