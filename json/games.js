@@ -204,7 +204,7 @@ let gamedata = {
         "name": "Learn to fly idle"
     },
     "slowroads": {
-        "srcURL": "/gamefiles/slowroads/index.html",
+        "srcURL": "/gamefiles/slowroadsio/index.html",
         "imgURL": "/images/thumbs/slowroads.png",
         "pageURL": "/pages/game.html?game=slowroads",
         "name": "Slowroads.io"
