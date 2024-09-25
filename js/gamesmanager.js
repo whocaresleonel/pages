@@ -16,7 +16,12 @@ if (window.location.pathname === "/pages/games.html"){
 async function loadGame(currentgame) {
     let json = gamedata
     let game = json[currentgame]
-    urlToOpen = gameFilesUrl + game.srcURL
+    if (game.srcURL.startsWith("http")){
+        window.alert("Offsite url")
+        urlToOpen = game.srcURL
+    } else{
+        urlToOpen = gameFilesUrl + game.srcURL
+    }
     try{
         embed.src = urlToOpen;
     }catch(error){

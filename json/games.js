@@ -1,8 +1,8 @@
 let gamedata = {
     "TestApp": {
-        "srcURL": "/",
+        "srcURL": "https://definitelynotemerald.us.to/",
         "imgURL": "/images/classroom.svg",
-        "pageURL": "/",
+        "pageURL": "/pages/game.html?game=definitelynotemerald",
         "name": "TestApp"
     },
     "2048": {
