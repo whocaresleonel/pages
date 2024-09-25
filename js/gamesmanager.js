@@ -16,7 +16,7 @@ if (window.location.pathname === "/pages/games.html"){
 async function loadGame(currentgame) {
     let json = gamedata
     let game = json[currentgame]
-    window.alert(currentgame, game.srcURL, game.pageURL)
+    window.alert(currentgame + game.srcURL + game.pageURL)
     urlToOpen = gameFilesUrl + game.srcURL
     try{
         embed.src = urlToOpen;
