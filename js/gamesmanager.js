@@ -16,7 +16,7 @@ if (window.location.pathname === "/pages/games.html"){
 async function loadGame(currentgame) {
     let json = gamedata
     let game = json[currentgame]
-    if (game.srcURL.startsWith("http")){
+    if (game.srcURL.substring(0,4)=="http"){
         window.alert("Offsite url")
         urlToOpen = game.srcURL
     } else{
