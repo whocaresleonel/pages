@@ -1,0 +1,101 @@
+<html style="overflow: scroll;">
+<head>
+    <title>Settings</title>
+    <link rel="stylesheet" href="/css/homepage.css">
+</head>
+<body>
+    <button onclick="settings()" style="text-align: center; position: absolute; transform: translateX(538.5px); border: 3px solid black; border-radius: 15px; height: 50px; width: 50px; background-color: rgb(32, 45, 65); font-size: 32px;">
+        X
+    </button>
+    <center>
+        <br>
+        <h2 class="header">
+            Settings
+        </h2>
+        <br>
+        <h2>
+            Extended Name: <input id="namecheck" onclick='changename(this)' type="checkbox">
+        </h2>
+        <br>
+        <h2>
+            Prevent leaving the site: <input id="leavesiteprotection" onclick='leavesiteprotection(this)' type="checkbox">
+        </h2>
+        <br>
+        <h2>
+            AutoCloak: <input id="autocloak" onclick='autocloak(this)' type="checkbox">
+        </h2>
+        <br>
+        <h2>
+            Refresh splash msg: <button onclick="refreshSplashMsg()">Refresh</button>
+        </h2>
+        <br>
+        <h2 class="header">
+            Utilities
+        </h2>
+        <br>
+        <h2>Open in new tab</h2>
+        <br>
+        <h2>
+            <input class="inputtext" id="newtab" placeholder="https://www.google.com" type="text">
+        </h2>
+        <br>
+        <button style="height: 50px;" onclick="openinnewtab()">Submit</button>
+        <br><br>
+        <h2>Open in current window</h2>
+        <br>
+        <h2>
+            <input class="inputtext" id="currenttab" placeholder="https://www.google.com" type="text">
+        </h2>
+        <br>
+        <button style="height: 50px;" onclick="openincurrentwindow()">Submit</button>
+        <br><br>
+        <h2>Open in about blank</h2> 
+        <br>
+        <h2>
+            <input class="inputtext" id="aboutblanktab" placeholder="https://www.google.com" type="text">
+        </h2>
+        <br>
+        <button style="height: 50px;" onclick="openinaboutblank()">Submit</button>
+        <br><br>
+        <h2>Set gradient color</h2> 
+        <br>
+        <h2>
+            <input class="inputtext" id="backgroundcolor" placeholder="#ffffff" type="color">
+        </h2>
+        <br>
+        <button style="height: 50px;" onclick="setbackgroundcolor()">Submit</button>
+        <br><br>
+        <h2>Set panic</h2> 
+        <br>
+        <h3>Url</h3>
+        <h2>
+            <input class="inputtext" id="panicurl" placeholder="https://classroom.google.com" type="text">
+        </h2>
+        <br>
+        <h3>Key</h3>
+        <h2>
+            <input class="inputtext" id="panickey" placeholder="A" type="text">
+        </h2>
+        <br>
+        <button style="height: 50px;" onclick="setpanickey()">Submit</button>
+        <br><br>
+        <h2 class="header">
+            Cloaks
+        </h2>
+        <br>
+        <h2>
+            <button onclick="cloak('clever')">Clever</button><button onclick="cloak('drive')">Drive</button><button onclick="cloak('docs')">Docs</button><button onclick="cloak('classroom')">Classroom</button><button onclick="cloak('reset')">Reset</button>
+        </h2>
+        <br>
+        <div align='center'>
+            <img src='https://www.free-website-hit-counter.com/c.php?d=7&id=177023&s=16' border='0' alt='Free Website Hit Counter'></a><br>
+        </div>
+        <br><br>
+    </center>
+</body>
+<script src="/modules/particles.js"></script>
+<script src="/modules/particleconfig.js"></script>
+<script src="/js/settings.js"></script>
+<script src="/js/cloak.js"></script>
+<script src="/js/homepage.js"></script>
+</html>
