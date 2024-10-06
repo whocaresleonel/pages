@@ -286,5 +286,11 @@ let gamedata = {
         "imgURL": "/images/thumbs/theimpossiblequiz.png",
         "pageURL": "/pages/game.html?game=theimpossiblequiz",
         "name": "Impossible Quiz"
+    },
+    "thebindingofisaac": {
+        "srcURL": "/gamefiles/thebindingofisaac/index.html",
+        "imgURL": "/images/thumbs/thebindingofisaac.png",
+        "pageURL": "/pages/game.html?game=thebindingofisaac",
+        "name": "TBOI"
     }
 }
