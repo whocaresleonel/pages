@@ -220,5 +220,53 @@ let gamedata = {
         "imgURL": "/images/thumbs/ageofwar.png",
         "pageURL": "/pages/game.html?game=ageofwar",
         "name": "Age of War"
+    },
+    "papasbakeria": {
+        "srcURL": "/gamefiles/papasbakeria/index.html",
+        "imgURL": "/images/thumbs/papasbakeria.png",
+        "pageURL": "/pages/game.html?game=papasbakeria",
+        "name": "Papas Bakeria"
+    },
+    "papasburgeria": {
+        "srcURL": "/gamefiles/papasburgeria/index.html",
+        "imgURL": "/images/thumbs/papasburgeria.png",
+        "pageURL": "/pages/game.html?game=papasburgeria",
+        "name": "Papas Burgeria"
+    },
+    "papascheeseria": {
+        "srcURL": "/gamefiles/papascheeseria/index.html",
+        "imgURL": "/images/thumbs/papascheeseria.png",
+        "pageURL": "/pages/game.html?game=papascheeseria",
+        "name": "Papas Cheesria"
+    },
+    "papascupcakeria": {
+        "srcURL": "/gamefiles/papascupcakeria/index.html",
+        "imgURL": "/images/thumbs/papascupcakeria.png",
+        "pageURL": "/pages/game.html?game=papascupcakeria",
+        "name": "Papas CCria"
+    },
+    "papasdonuteria": {
+        "srcURL": "/gamefiles/papasdonuteria/index.html",
+        "imgURL": "/images/thumbs/papasdonuteria.png",
+        "pageURL": "/pages/game.html?game=papasdonuteria",
+        "name": "Papas Donutria"
+    },
+    "papaspastaria": {
+        "srcURL": "/gamefiles/papaspastaria/index.html",
+        "imgURL": "/images/thumbs/papaspastaria.png",
+        "pageURL": "/pages/game.html?game=papaspastaria",
+        "name": "Papas Pastria"
+    },
+    "papaspizzeria": {
+        "srcURL": "/gamefiles/papaspizzeria/index.html",
+        "imgURL": "/images/thumbs/papaspizzeria.png",
+        "pageURL": "/pages/game.html?game=papaspizzeria",
+        "name": "Papas Pizzeria"
+    },
+    "papassushiria": {
+        "srcURL": "/gamefiles/papassushiria/index.html",
+        "imgURL": "/images/thumbs/papassushiria.png",
+        "pageURL": "/pages/game.html?game=papassushiria",
+        "name": "Papas Sushiria"
     }
 }

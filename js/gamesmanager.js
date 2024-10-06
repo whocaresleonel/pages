@@ -9,7 +9,7 @@ if (window.location.pathname === "/pages/games.html"){
         let keys = Object.keys(json)
         let currentObj = json[keys[i]]
         let games = document.getElementById("gamerow");
-        games.innerHTML += ("<a href='" + currentObj.pageURL + "'><div id='game'><img src='" + currentObj.imgURL + "' alt='" + currentObj.name + "' loading='lazy'><p>" + currentObj.name + "</p></div></a>")
+        games.innerHTML += ("<a href='" + currentObj.pageURL + "'><div id='game'><img src='" + currentObj.imgURL + "' alt='Image failed to load.' loading='lazy'><p>" + currentObj.name + "</p></div></a>")
     }
 }
 
