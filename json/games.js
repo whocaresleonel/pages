@@ -214,5 +214,11 @@ let gamedata = {
         "imgURL": "/images/thumbs/snowrider3d.png",
         "pageURL": "/pages/game.html?game=snowrider3d",
         "name": "Snow Rider 3D"
+    },
+    "ageofwar": {
+        "srcURL": "/gamefiles/ageofwar/index.html",
+        "imgURL": "/images/thumbs/ageofwar.png",
+        "pageURL": "/pages/game.html?game=ageofwar",
+        "name": "Age of War"
     }
 }
