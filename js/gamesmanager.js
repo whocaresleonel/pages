@@ -9,14 +9,14 @@ if (window.location.pathname === "/pages/games.html"){
         let keys = Object.keys(json)
         let currentObj = json[keys[i]]
         let games = document.getElementById("gamerow");
-        games.innerHTML += ("<a href='" + currentObj.pageURL + "'><div id='game'><img src='" + currentObj.imgURL + "' alt='" + currentObj.name + "'><p>" + currentObj.name + "</p></div></a>")
+        games.innerHTML += ("<a href='" + currentObj.pageURL + "'><div id='game'><img src='" + currentObj.imgURL + "' alt='" + currentObj.name + "' loading='lazy'><p>" + currentObj.name + "</p></div></a>")
     }
 }
 
 async function loadGame(currentgame) {
     let json = gamedata
     let game = json[currentgame]
-    window.alert(currentgame + game.srcURL + game.pageURL)
+    //window.alert(currentgame + game.srcURL + game.pageURL)
     urlToOpen = gameFilesUrl + game.srcURL
     try{
         embed.src = urlToOpen;
@@ -30,7 +30,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const fullscreenButton = document.getElementById("fullscreen");
     let currentgame = params.get('game');
 
-    //No more YandereDev code :(
+    // No more YandereDev code :(
+    // I'll miss you 😢😢😢
 
     if (currentgame != null){
         loadGame(currentgame)
