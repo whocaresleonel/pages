@@ -141,7 +141,13 @@ let gamedata = {
         "srcURL": "/gamefiles/btd4/index.html",
         "imgURL": "/images/thumbs/btd4.png",
         "pageURL": "/pages/game.html?game=btd4",
-        "name": "Btd4"
+        "name": "BTD4"
+    },
+    "btd5": {
+        "srcURL": "/gamefiles/btd5/index.html",
+        "imgURL": "/images/thumbs/btd5.png",
+        "pageURL": "/pages/game.html?game=btd5",
+        "name": "BTD5"
     },
     "pvz": {
         "srcURL": "/gamefiles/pvz/index.html",
@@ -273,6 +279,12 @@ let gamedata = {
         "srcURL": "/gamefiles/papasscooperia/index.html",
         "imgURL": "/images/thumbs/papasscooperia.png",
         "pageURL": "/pages/game.html?game=papasscooperia",
-        "name": "Papas Scooperia"
+        "name": "Papas Scoopria"
+    },
+    "theimpossiblequiz": {
+        "srcURL": "/gamefiles/theimpossiblequiz/index.html",
+        "imgURL": "/images/thumbs/theimpossiblequiz.png",
+        "pageURL": "/pages/game.html?game=theimpossiblequiz",
+        "name": "Impossible Quiz"
     }
 }
