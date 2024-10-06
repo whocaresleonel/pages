@@ -22,7 +22,7 @@
 **Added caudns**
 **Fixed the fixer from not fixing**
 
-<br><br><br><br>
+<br>
 
 # **Universal UB v2.13**
 
@@ -31,7 +31,7 @@
 **added 4 henry stickmin games**
 **fixed wierd styling changes**
 
-<br><br><br><br>
+<br>
 
 # **Universal UB v2.12**
 
@@ -42,7 +42,7 @@
 **Added panic keys**
 **Added page customization (Will be worked on in a later update)**
 
-<br><br><br><br>
+<br>
 
 # **Universal UB v2.11**
 
@@ -52,7 +52,7 @@
 
 **Next update WILL have MIT app inventor and page customization :D**
 
-<br><br><br><br>
+<br>
 
 # **Universal UB v2.1**
 
@@ -66,7 +66,7 @@
 
 **No MIT app inventor exploit YET, it'll be out soon. just keep an eye out.**
 
-<br><br><br><br>
+<br>
 
 # **Universal UB v2.03**
 
@@ -81,7 +81,7 @@
 
 **Cloaks are available in settings**
 
-<br><br><br><br>
+<br>
 
 # **Universal UB v2.02**
 
@@ -90,14 +90,14 @@
 
 **Cloaks are available in settings**
 
-<br><br><br><br>
+<br>
 
 # **Universal UB v2.01!**
 **200+ proxies**
 
 **About blank version of the site**
 
-<br><br><br><br>
+<br>
 
 # **Universal UB v2.0!**
 **20+ More games**
