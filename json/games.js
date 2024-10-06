@@ -1,10 +1,4 @@
 let gamedata = {
-    "TestApp": {
-        "srcURL": "/",
-        "imgURL": "/images/classroom.svg",
-        "pageURL": "/",
-        "name": "TestApp"
-    },
     "2048": {
         "srcURL": "/gamefiles/2048/index.html",
         "imgURL": "/images/thumbs/2048.png",
