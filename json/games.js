@@ -273,6 +273,6 @@ let gamedata = {
         "srcURL": "/gamefiles/papasscooperia/index.html",
         "imgURL": "/images/thumbs/papasscooperia.png",
         "pageURL": "/pages/game.html?game=papasscooperia",
-        "name": "Papas Scooperia"
+        "name": "Papas Scoopria"
     }
 }
