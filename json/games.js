@@ -268,5 +268,11 @@ let gamedata = {
         "imgURL": "/images/thumbs/papassushiria.png",
         "pageURL": "/pages/game.html?game=papassushiria",
         "name": "Papas Sushiria"
+    },
+    "papasscooperia": {
+        "srcURL": "/gamefiles/papasscooperia/index.html",
+        "imgURL": "/images/thumbs/papasscooperia.png",
+        "pageURL": "/pages/game.html?game=papasscooperia",
+        "name": "Papas Scooperia"
     }
 }
