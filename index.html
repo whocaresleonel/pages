@@ -52,7 +52,7 @@
                 <center><div id="markdown-content"></div></center>
                 <script src="https://cdn.jsdelivr.net/npm/marked@4.3.0/marked.min.js"></script>
                 <script>
-                    fetch('README.md')
+                    fetch('VERSIONS.md')
                         .then(response => response.text())
                         .then(text => {
                             const htmlContent = marked.parse(text);
