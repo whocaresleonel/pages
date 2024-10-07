@@ -30,3 +30,8 @@
 - **Fork the repo by running <kbd>sudo git clone https://uniub.github.io</kbd>**
 - **Cd into the repo by doing <kbd>cd uniub.github.io</kbd>**
 - **Run <kbd>sh ./startserver.sh</kbd>**
+## Troubleshooting
+- **Make sure you have a browser installed (Specifically chrome if your on windows.)**
+- **Make sure you have a version of python installed that supports http.server**
+- **Make sure you have git instslled**
+- **Make sure your in the right directory**
