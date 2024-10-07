@@ -298,5 +298,29 @@ let gamedata = {
         "imgURL": "/images/thumbs/riddleschool1.png",
         "pageURL": "/pages/game.html?game=riddleschool1",
         "name": "Riddle School 1"
+    },
+    "riddleschool2": {
+        "srcURL": "/gamefiles/riddleschool2/index.html",
+        "imgURL": "/images/thumbs/riddleschool2.png",
+        "pageURL": "/pages/game.html?game=riddleschool2",
+        "name": "Riddle School 2"
+    },
+    "riddleschool3": {
+        "srcURL": "/gamefiles/riddleschool3/index.html",
+        "imgURL": "/images/thumbs/riddleschool3.png",
+        "pageURL": "/pages/game.html?game=riddleschool3",
+        "name": "Riddle School 3"
+    },
+    "riddleschool4": {
+        "srcURL": "/gamefiles/riddleschool4/index.html",
+        "imgURL": "/images/thumbs/riddleschool4.png",
+        "pageURL": "/pages/game.html?game=riddleschool4",
+        "name": "Riddle School 4"
+    },
+    "riddleschool5": {
+        "srcURL": "/gamefiles/riddleschool5/index.html",
+        "imgURL": "/images/thumbs/riddleschool5.png",
+        "pageURL": "/pages/game.html?game=riddleschool5",
+        "name": "Riddle School 5"
     }
 }
