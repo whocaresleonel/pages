@@ -23,12 +23,6 @@ let gamedata = {
         "pageURL": "/pages/game.html?game=krunker",
         "name": "Krunker"
     },
-    "learntofly": {
-        "srcURL": "/gamefiles/learntofly/index.html",
-        "imgURL": "/images/thumbs/learntofly.png",
-        "pageURL": "/pages/game.html?game=learntofly",
-        "name": "Learn To Fly"
-    },
     "minecraft-classic": {
         "srcURL": "/gamefiles/minecraft-classic/index.html",
         "imgURL": "/images/thumbs/minecraft-classic.png",
@@ -149,17 +143,29 @@ let gamedata = {
         "pageURL": "/pages/game.html?game=pvz",
         "name": "PvZ"
     },
-    "learntofly3": {
-        "srcURL": "/gamefiles/learntofly3/index.html",
-        "imgURL": "/images/thumbs/learntofly3.png",
-        "pageURL": "/pages/game.html?game=learntofly3",
-        "name": "Learn to Fly 3"
+    "learntofly": {
+        "srcURL": "/gamefiles/learntofly/index.html",
+        "imgURL": "/images/thumbs/learntofly.png",
+        "pageURL": "/pages/game.html?game=learntofly",
+        "name": "Learn To Fly"
     },
     "learntofly2": {
         "srcURL": "/gamefiles/learntofly2/index.html",
         "imgURL": "/images/thumbs/learntofly2.png",
         "pageURL": "/pages/game.html?game=learntofly2",
         "name": "Learn to Fly 2"
+    },
+    "learntofly3": {
+        "srcURL": "/gamefiles/learntofly3/index.html",
+        "imgURL": "/images/thumbs/learntofly3.png",
+        "pageURL": "/pages/game.html?game=learntofly3",
+        "name": "Learn to Fly 3"
+    },
+    "learntoflyidle": {
+        "srcURL": "/gamefiles/learntoflyidle/index.html",
+        "imgURL": "/images/thumbs/learntoflyidle.png",
+        "pageURL": "/pages/game.html?game=learntoflyidle",
+        "name": "Learn to fly idle"
     },
     "classicube": {
         "srcURL": "/gamefiles/classicube/index.html",
@@ -196,12 +202,6 @@ let gamedata = {
         "imgURL": "/images/thumbs/armedforcesio.png",
         "pageURL": "/pages/game.html?game=armedforcesio",
         "name": "Armedforces.io"
-    },
-    "learntoflyidle": {
-        "srcURL": "/gamefiles/learntoflyidle/index.html",
-        "imgURL": "/images/thumbs/learntoflyidle.png",
-        "pageURL": "/pages/game.html?game=learntoflyidle",
-        "name": "Learn to fly idle"
     },
     "slowroads": {
         "srcURL": "/gamefiles/slowroadsio/index.html",
@@ -292,5 +292,53 @@ let gamedata = {
         "imgURL": "/images/thumbs/thebindingofisaac.png",
         "pageURL": "/pages/game.html?game=thebindingofisaac",
         "name": "TBOI"
+    },
+    "bloxorz": {
+        "srcURL": "/gamefiles/bloxorz/index.html",
+        "imgURL": "/images/thumbs/bloxorz.png",
+        "pageURL": "/pages/game.html?game=bloxorz",
+        "name": "Bloxorz"
+    },
+    "riddleschool1": {
+        "srcURL": "/gamefiles/riddleschool1/index.html",
+        "imgURL": "/images/thumbs/riddleschool1.png",
+        "pageURL": "/pages/game.html?game=riddleschool1",
+        "name": "Riddle School 1"
+    },
+    "riddleschool2": {
+        "srcURL": "/gamefiles/riddleschool2/index.html",
+        "imgURL": "/images/thumbs/riddleschool2.png",
+        "pageURL": "/pages/game.html?game=riddleschool2",
+        "name": "Riddle School 2"
+    },
+    "riddleschool3": {
+        "srcURL": "/gamefiles/riddleschool3/index.html",
+        "imgURL": "/images/thumbs/riddleschool3.png",
+        "pageURL": "/pages/game.html?game=riddleschool3",
+        "name": "Riddle School 3"
+    },
+    "riddleschool4": {
+        "srcURL": "/gamefiles/riddleschool4/index.html",
+        "imgURL": "/images/thumbs/riddleschool4.png",
+        "pageURL": "/pages/game.html?game=riddleschool4",
+        "name": "Riddle School 4"
+    },
+    "riddleschool5": {
+        "srcURL": "/gamefiles/riddleschool5/index.html",
+        "imgURL": "/images/thumbs/riddleschool5.png",
+        "pageURL": "/pages/game.html?game=riddleschool5",
+        "name": "Riddle School 5"
+    },
+    "riddletransfer1": {
+        "srcURL": "/gamefiles/riddletransfer1/index.html",
+        "imgURL": "/images/thumbs/riddletransfer1.png",
+        "pageURL": "/pages/game.html?game=riddletransfer1",
+        "name": "Riddle Transf 1"
+    },
+    "riddletransfer2": {
+        "srcURL": "/gamefiles/riddletransfer2/index.html",
+        "imgURL": "/images/thumbs/riddletransfer2.png",
+        "pageURL": "/pages/game.html?game=riddletransfer2",
+        "name": "Riddle Transf 2"
     }
 }
