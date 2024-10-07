@@ -1,3 +1,12 @@
+# **Universal UB v2.17**
+
+**Added lots of games >:))) riddleschool, ducklife, papas, bloxorz, tboi, alot more.**
+**Fixed formatting on the homepage, discord icon works properly now :)**
+**Added new pages for settings and changelog (No longer on index.html anymore)**
+**Added a button on the top right of index with a "site map" of sorts.**
+
+<br>
+
 # **Universal UB v2.16**
 
 **Once again, not a shit ton of actual changes, but alot going on behind the scenes :)**

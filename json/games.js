@@ -340,5 +340,35 @@ let gamedata = {
         "imgURL": "/images/thumbs/riddletransfer2.png",
         "pageURL": "/pages/game.html?game=riddletransfer2",
         "name": "Riddle Transf 2"
+    },
+    "ducklife1": {
+        "srcURL": "/gamefiles/ducklife1/index.html",
+        "imgURL": "/images/thumbs/ducklife1.png",
+        "pageURL": "/pages/game.html?game=ducklife1",
+        "name": "Ducklife 1"
+    },
+    "ducklife2": {
+        "srcURL": "/gamefiles/ducklife2/index.html",
+        "imgURL": "/images/thumbs/ducklife2.png",
+        "pageURL": "/pages/game.html?game=ducklife2",
+        "name": "Ducklife 2"
+    },
+    "ducklife3": {
+        "srcURL": "/gamefiles/ducklife3/index.html",
+        "imgURL": "/images/thumbs/ducklife3.png",
+        "pageURL": "/pages/game.html?game=ducklife3",
+        "name": "Ducklife 3"
+    },
+    "ducklife4": {
+        "srcURL": "/gamefiles/ducklife4/index.html",
+        "imgURL": "/images/thumbs/ducklife4.png",
+        "pageURL": "/pages/game.html?game=ducklife4",
+        "name": "Ducklife 4"
+    },
+    "ducklifetreasurehunt": {
+        "srcURL": "/gamefiles/ducklifetreasurehunt/index.html",
+        "imgURL": "/images/thumbs/ducklifetreasurehunt.png",
+        "pageURL": "/pages/game.html?game=ducklifetreasurehunt",
+        "name": "Ducklife TH"
     }
 }

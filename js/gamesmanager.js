@@ -11,6 +11,7 @@ if (window.location.pathname === "/pages/games.html"){
         let games = document.getElementById("gamerow");
         games.innerHTML += ("<a href='" + currentObj.pageURL + "'><div id='game'><img src='" + currentObj.imgURL + "' alt='Image failed to load.' loading='lazy'><p>" + currentObj.name + "</p></div></a>")
     }
+    document.getElementById("tempwarn").remove()
 }
 
 async function loadGame(currentgame) {

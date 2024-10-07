@@ -16,6 +16,7 @@
         <!-- Google tag (gtag.js) -->
         <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
         <link rel="stylesheet" href="/css/games.css">
+        <link rel="stylesheet" href="/css/homepage.css">
         <link rel="canonical" href="https://uniub.github.io/pages/games.html">
     </head>
     <body>
@@ -27,35 +28,21 @@
                 </div>
                 <div id="gamebar">
                     <h1 class="header" style="line-height: 75px;">
-                        Games
+                        Changelog
                     </h1>
                 </div>
                 <div id="games">
-                    <div id="gamerow">
-                        <!--
-
-                        Heres an example of a game!
-                        Please view /js/gamesmanager.js and /json/games.json for further details on how they are added.
-
-                        <a href="/pages/game.html?game=2048"><div id="game">
-                            <img src="/images/thumbs/2048.png">
-                            <p>2048</p>
-                        </div></a>
-
-                        -->
-                        <div id="tempwarn">
-                            <center>
-                                <br>
-                                <h2>
-                                    Games failed to load, please use the main url or try again later.
-                                    <br>
-                                    <a href="https://uniub.github.io/pages/games.html">
-                                        Click
-                                    </a>
-                                </h2>
-                            </center>
-                        </div>
-                    </div>
+                    <center><div id="markdown-content"></div></center>
+            <script src="https://cdn.jsdelivr.net/npm/marked@4.3.0/marked.min.js"></script>
+            <script>
+                fetch('/VERSIONS.md')
+                    .then(response => response.text())
+                    .then(text => {
+                        const htmlContent = marked.parse(text);
+                        document.getElementById('markdown-content').innerHTML = htmlContent;
+                    })
+                    .catch(error => console.error('Error fetching markdown file:', error));
+            </script>
                 </div>
             </center>
             <br><br>

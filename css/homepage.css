@@ -49,6 +49,17 @@
     margin-left: 15px;
 }
 
+#drawerdiv{
+    height: 75px;
+    width: 200px;
+    background-color: rgba(33, 58, 92, 0.4);
+    border-radius: 25px;
+    border: 2px solid black;
+    position: absolute;
+    margin-left: 15px;
+    transition: 0.5s;
+}
+
 html, body {
     width: 100%;
     height: 100%;
@@ -86,7 +97,6 @@ button{
 
 #navbar {
     height: 75px;
-    width: 825px;
     border-radius: 50px;
     border: 2px solid black;
     background-color: rgba(33, 58, 92, 0.4);
@@ -193,6 +203,11 @@ a{
     transition: 500ms;
 }
 
+#mediumlargenav h2:hover{
+    background-color: rgb(58,79,110);
+    transition: 500ms;
+}
+
 .header{
     font-size: 38px;
 }
@@ -210,14 +225,21 @@ a{
 
 #content {
     position: relative;
-    z-index: 1;
+    z-index: 0;
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
+
+.holder {
+    position: absolute;
+    top: 50%;       /* Move the top edge to 50% of the parent height */
+    left: 50%;      /* Move the left edge to 50% of the parent width */
+    transform: translate(-50%, -50%); /* Offset by 50% of its own height and width */
+    text-align: center; /* Optional: Center the text inside */
+}
+
 
 #particles-js {
     position: fixed;
