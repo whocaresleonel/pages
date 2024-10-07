@@ -275,6 +275,12 @@ let gamedata = {
         "pageURL": "/pages/game.html?game=papasscooperia",
         "name": "Papas Scoopria"
     },
+    "papasfreezeria": {
+        "srcURL": "/gamefiles/papasfreezeria/index.html",
+        "imgURL": "/images/thumbs/papasfreezeria.png",
+        "pageURL": "/pages/game.html?game=papasfreezeria",
+        "name": "Papas Freezeria"
+    },
     "theimpossiblequiz": {
         "srcURL": "/gamefiles/theimpossiblequiz/index.html",
         "imgURL": "/images/thumbs/theimpossiblequiz.png",
