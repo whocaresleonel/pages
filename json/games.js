@@ -322,5 +322,17 @@ let gamedata = {
         "imgURL": "/images/thumbs/riddleschool5.png",
         "pageURL": "/pages/game.html?game=riddleschool5",
         "name": "Riddle School 5"
+    },
+    "riddletransfer1": {
+        "srcURL": "/gamefiles/riddletransfer1/index.html",
+        "imgURL": "/images/thumbs/riddletransfer1.png",
+        "pageURL": "/pages/game.html?game=riddletransfer1",
+        "name": "Riddle Transf 1"
+    },
+    "riddletransfer2": {
+        "srcURL": "/gamefiles/riddletransfer2/index.html",
+        "imgURL": "/images/thumbs/riddletransfer2.png",
+        "pageURL": "/pages/game.html?game=riddletransfer2",
+        "name": "Riddle Transf 2"
     }
 }
