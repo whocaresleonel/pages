@@ -23,12 +23,6 @@ let gamedata = {
         "pageURL": "/pages/game.html?game=krunker",
         "name": "Krunker"
     },
-    "learntofly": {
-        "srcURL": "/gamefiles/learntofly/index.html",
-        "imgURL": "/images/thumbs/learntofly.png",
-        "pageURL": "/pages/game.html?game=learntofly",
-        "name": "Learn To Fly"
-    },
     "minecraft-classic": {
         "srcURL": "/gamefiles/minecraft-classic/index.html",
         "imgURL": "/images/thumbs/minecraft-classic.png",
@@ -149,17 +143,29 @@ let gamedata = {
         "pageURL": "/pages/game.html?game=pvz",
         "name": "PvZ"
     },
-    "learntofly3": {
-        "srcURL": "/gamefiles/learntofly3/index.html",
-        "imgURL": "/images/thumbs/learntofly3.png",
-        "pageURL": "/pages/game.html?game=learntofly3",
-        "name": "Learn to Fly 3"
+    "learntofly": {
+        "srcURL": "/gamefiles/learntofly/index.html",
+        "imgURL": "/images/thumbs/learntofly.png",
+        "pageURL": "/pages/game.html?game=learntofly",
+        "name": "Learn To Fly"
     },
     "learntofly2": {
         "srcURL": "/gamefiles/learntofly2/index.html",
         "imgURL": "/images/thumbs/learntofly2.png",
         "pageURL": "/pages/game.html?game=learntofly2",
         "name": "Learn to Fly 2"
+    },
+    "learntofly3": {
+        "srcURL": "/gamefiles/learntofly3/index.html",
+        "imgURL": "/images/thumbs/learntofly3.png",
+        "pageURL": "/pages/game.html?game=learntofly3",
+        "name": "Learn to Fly 3"
+    },
+    "learntoflyidle": {
+        "srcURL": "/gamefiles/learntoflyidle/index.html",
+        "imgURL": "/images/thumbs/learntoflyidle.png",
+        "pageURL": "/pages/game.html?game=learntoflyidle",
+        "name": "Learn to fly idle"
     },
     "classicube": {
         "srcURL": "/gamefiles/classicube/index.html",
@@ -196,12 +202,6 @@ let gamedata = {
         "imgURL": "/images/thumbs/armedforcesio.png",
         "pageURL": "/pages/game.html?game=armedforcesio",
         "name": "Armedforces.io"
-    },
-    "learntoflyidle": {
-        "srcURL": "/gamefiles/learntoflyidle/index.html",
-        "imgURL": "/images/thumbs/learntoflyidle.png",
-        "pageURL": "/pages/game.html?game=learntoflyidle",
-        "name": "Learn to fly idle"
     },
     "slowroads": {
         "srcURL": "/gamefiles/slowroadsio/index.html",
