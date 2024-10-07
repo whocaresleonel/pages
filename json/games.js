@@ -286,5 +286,17 @@ let gamedata = {
         "imgURL": "/images/thumbs/thebindingofisaac.png",
         "pageURL": "/pages/game.html?game=thebindingofisaac",
         "name": "TBOI"
+    },
+    "bloxorz": {
+        "srcURL": "/gamefiles/bloxorz/index.html",
+        "imgURL": "/images/thumbs/bloxorz.png",
+        "pageURL": "/pages/game.html?game=bloxorz",
+        "name": "Bloxorz"
+    },
+    "riddleschool1": {
+        "srcURL": "/gamefiles/riddleschool1/index.html",
+        "imgURL": "/images/thumbs/riddleschool1.png",
+        "pageURL": "/pages/game.html?game=riddleschool1",
+        "name": "Riddle School 1"
     }
 }
