@@ -23,7 +23,7 @@
 - **Google chrome (For windows)**
 - **Git is installed**
 ## On Windows
-- **Fork the repo (On wsl or git cli you can use <kbd>git clone https://uniub.github.io</kbd>**
+- **Fork the repo (On wsl or git cli you can use <kbd>git clone https://uniub.github.io</kbd>)**
 - **Go into the newly created folder.**
 - **Via file explorer, double click the "startserver.bat" file. (Via cmd, run <kbd>startserver.bat</kbd>)**
 ## On Linux
