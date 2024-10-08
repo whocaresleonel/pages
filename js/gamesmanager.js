@@ -5,6 +5,7 @@ var urlToOpen
 
 if (window.location.pathname === "/pages/games.html"){
     let json = gamedata
+    console.log("There are " + Object.keys(json).length + " games.")
     for (let i = 0; i < Object.keys(json).length; i++){
         let keys = Object.keys(json)
         let currentObj = json[keys[i]]
@@ -12,6 +13,11 @@ if (window.location.pathname === "/pages/games.html"){
         games.innerHTML += ("<a href='" + currentObj.pageURL + "'><div id='game'><img src='" + currentObj.imgURL + "' alt='Image failed to load.' loading='lazy'><p>" + currentObj.name + "</p></div></a>")
     }
     document.getElementById("tempwarn").remove()
+    document.getElementById("gamerow").innerHTML += (`
+        <center>
+            <h2 style="margin: 0; padding: 20px;">You've reached the bottom of the games page! Go <a href="https://forms.gle/Any4aLEQRhNm6zJA7" target="_blank" style="margin: 0; padding: 20px;">[HERE]</a> to request a game!</h2>
+        </center>
+    `)
 }
 
 async function loadGame(currentgame) {

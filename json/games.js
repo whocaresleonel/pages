@@ -125,6 +125,24 @@ let gamedata = {
         "pageURL": "/pages/game.html?game=geometry-dash",
         "name": "Geometry Dash"
     },
+    "btd1": {
+        "srcURL": "/gamefiles/btd1/index.html",
+        "imgURL": "/images/thumbs/btd1.png",
+        "pageURL": "/pages/game.html?game=btd1",
+        "name": "BTD1"
+    },
+    "btd2": {
+        "srcURL": "/gamefiles/btd2/index.html",
+        "imgURL": "/images/thumbs/btd2.png",
+        "pageURL": "/pages/game.html?game=btd2",
+        "name": "BTD2"
+    },
+    "btd3": {
+        "srcURL": "/gamefiles/btd3/index.html",
+        "imgURL": "/images/thumbs/btd3.png",
+        "pageURL": "/pages/game.html?game=btd3",
+        "name": "BTD3"
+    },
     "btd4": {
         "srcURL": "/gamefiles/btd4/index.html",
         "imgURL": "/images/thumbs/btd4.png",
@@ -370,5 +388,239 @@ let gamedata = {
         "imgURL": "/images/thumbs/ducklifetreasurehunt.png",
         "pageURL": "/pages/game.html?game=ducklifetreasurehunt",
         "name": "Ducklife TH"
+    },
+    "timeshooter1": {
+        "srcURL": "/gamefiles/timeshooter1/index.html",
+        "imgURL": "/images/thumbs/timeshooter1.png",
+        "pageURL": "/pages/game.html?game=timeshooter1",
+        "name": "Time Shooter 1"
+    },
+    "timeshooter2": {
+        "srcURL": "/gamefiles/timeshooter2/index.html",
+        "imgURL": "/images/thumbs/timeshooter2.png",
+        "pageURL": "/pages/game.html?game=timeshooter2",
+        "name": "Time Shooter 2"
+    },
+    "timeshooter3": {
+        "srcURL": "/gamefiles/timeshooter3/index.html",
+        "imgURL": "/images/thumbs/timeshooter3.png",
+        "pageURL": "/pages/game.html?game=timeshooter3",
+        "name": "Time Shooter 3"
+    },
+    "wordle": {
+        "srcURL": "/gamefiles/wordle/index.html",
+        "imgURL": "/images/thumbs/wordle.png",
+        "pageURL": "/pages/game.html?game=wordle",
+        "name": "Wordle"
+    },
+    "volleyrandom": {
+        "srcURL": "/gamefiles/volleyrandom/index.html",
+        "imgURL": "/images/thumbs/volleyrandom.png",
+        "pageURL": "/pages/game.html?game=volleyrandom",
+        "name": "Volley Random"
+    },
+    "boxingrandom": {
+        "srcURL": "/gamefiles/boxingrandom/index.html",
+        "imgURL": "/images/thumbs/boxingrandom.png",
+        "pageURL": "/pages/game.html?game=boxingrandom",
+        "name": "Boxing Random"
+    },
+    "basketrandom": {
+        "srcURL": "/gamefiles/basketrandom/index.html",
+        "imgURL": "/images/thumbs/basketrandom.png",
+        "pageURL": "/pages/game.html?game=basketrandom",
+        "name": "Basket Random"
+    },
+    "motox3m": {
+        "srcURL": "/gamefiles/motox3m/index.html",
+        "imgURL": "/images/thumbs/motox3m.png",
+        "pageURL": "/pages/game.html?game=motox3m",
+        "name": "MotoX3M"
+    },
+    "motox3m-pool": {
+        "srcURL": "/gamefiles/motox3m-pool/index.html",
+        "imgURL": "/images/thumbs/motox3m-pool.png",
+        "pageURL": "/pages/game.html?game=motox3m-pool",
+        "name": "MotoX3M Pool"
+    },
+    "motox3m-spooky": {
+        "srcURL": "/gamefiles/motox3m-spooky/index.html",
+        "imgURL": "/images/thumbs/motox3m-spooky.png",
+        "pageURL": "/pages/game.html?game=motox3m-spooky",
+        "name": "MotoX3M Spooky"
+    },
+    "motox3m-winter": {
+        "srcURL": "/gamefiles/motox3m-winter/index.html",
+        "imgURL": "/images/thumbs/motox3m-winter.png",
+        "pageURL": "/pages/game.html?game=motox3m-winter",
+        "name": "MotoX3M Winter"
+    },
+    "achievementunlocked1": {
+        "srcURL": "/gamefiles/achievementunlocked1/index.html",
+        "imgURL": "/images/thumbs/achievementunlocked1.png",
+        "pageURL": "/pages/game.html?game=achievementunlocked1",
+        "name": "Ach Unl 1"
+    },
+    "achievementunlocked2": {
+        "srcURL": "/gamefiles/achievementunlocked2/index.html",
+        "imgURL": "/images/thumbs/achievementunlocked2.png",
+        "pageURL": "/pages/game.html?game=achievementunlocked2",
+        "name": "Ach Unl 2"
+    },
+    "gunmayhem1": {
+        "srcURL": "/gamefiles/gunmayhem1/index.html",
+        "imgURL": "/images/thumbs/gunmayhem1.png",
+        "pageURL": "/pages/game.html?game=gunmayhem1",
+        "name": "Gun Mayhem 1"
+    },
+    "gunmayhem2": {
+        "srcURL": "/gamefiles/gunmayhem2/index.html",
+        "imgURL": "/images/thumbs/gunmayhem2.png",
+        "pageURL": "/pages/game.html?game=gunmayhem2",
+        "name": "Gun Mayhem 2"
+    },
+    "rooftopsnipers1": {
+        "srcURL": "/gamefiles/rooftopsnipers1/index.html",
+        "imgURL": "/images/thumbs/rooftopsnipers1.png",
+        "pageURL": "/pages/game.html?game=rooftopsnipers1",
+        "name": "RS 1"
+    },
+    "rooftopsnipers2": {
+        "srcURL": "/gamefiles/rooftopsnipers2/index.html",
+        "imgURL": "/images/thumbs/rooftopsnipers2.png",
+        "pageURL": "/pages/game.html?game=rooftopsnipers2",
+        "name": "RS 2"
+    },
+    "amongus": {
+        "srcURL": "/gamefiles/amongus/index.html",
+        "imgURL": "/images/thumbs/amongus.png",
+        "pageURL": "/pages/game.html?game=amongus",
+        "name": "Amongus"
+    },
+    "basketballstars": {
+        "srcURL": "/gamefiles/basketballstars/index.html",
+        "imgURL": "/images/thumbs/basketballstars.png",
+        "pageURL": "/pages/game.html?game=basketballstars",
+        "name": "Basketball Stars"
+    },
+    "basketballstars": {
+        "srcURL": "/gamefiles/basketballstars/index.html",
+        "imgURL": "/images/thumbs/basketballstars.png",
+        "pageURL": "/pages/game.html?game=basketballstars",
+        "name": "Basketball Stars"
+    },
+    "burritobison": {
+        "srcURL": "/gamefiles/burritobison/index.html",
+        "imgURL": "/images/thumbs/burritobison.png",
+        "pageURL": "/pages/game.html?game=burritobison",
+        "name": "Burrito Bison"
+    },
+    "chess": {
+        "srcURL": "/gamefiles/chess/index.html",
+        "imgURL": "/images/thumbs/chess.png",
+        "pageURL": "/pages/game.html?game=chess",
+        "name": "Chess"
+    },
+    "drift-boss": {
+        "srcURL": "/gamefiles/drift-boss/index.html",
+        "imgURL": "/images/thumbs/drift-boss.png",
+        "pageURL": "/pages/game.html?game=drift-boss",
+        "name": "Drift Boss"
+    },
+    "gladihoppers": {
+        "srcURL": "/gamefiles/gladihoppers/index.html",
+        "imgURL": "/images/thumbs/gladihoppers.png",
+        "pageURL": "/pages/game.html?game=gladihoppers",
+        "name": "Gladihoppers"
+    },
+    "monkeymart": {
+        "srcURL": "/gamefiles/monkeymart/index.html",
+        "imgURL": "/images/thumbs/monkeymart.png",
+        "pageURL": "/pages/game.html?game=monkeymart",
+        "name": "Monkey Mart"
+    },
+    "paperio": {
+        "srcURL": "/gamefiles/paperio/index.html",
+        "imgURL": "/images/thumbs/paperio.png",
+        "pageURL": "/pages/game.html?game=paperio",
+        "name": "Paper.io"
+    },
+    "supermario64": {
+        "srcURL": "/gamefiles/supermario64/index.html",
+        "imgURL": "/images/thumbs/supermario64.png",
+        "pageURL": "/pages/game.html?game=supermario64",
+        "name": "Super Mario 64"
+    },
+    "run1": {
+        "srcURL": "/gamefiles/run1/index.html",
+        "imgURL": "/images/thumbs/run1.png",
+        "pageURL": "/pages/game.html?game=run1",
+        "name": "Run 1"
+    },
+    "run2": {
+        "srcURL": "/gamefiles/run2/index.html",
+        "imgURL": "/images/thumbs/run2.png",
+        "pageURL": "/pages/game.html?game=run2",
+        "name": "Run 2"
+    },
+    "run3": {
+        "srcURL": "/gamefiles/run3/index.html",
+        "imgURL": "/images/thumbs/run3.png",
+        "pageURL": "/pages/game.html?game=run3",
+        "name": "Run 3"
+    },
+    "pool": {
+        "srcURL": "/gamefiles/pool/index.html",
+        "imgURL": "/images/thumbs/pool.png",
+        "pageURL": "/pages/game.html?game=pool",
+        "name": "Pool"
+    },
+    "vex1": {
+        "srcURL": "/gamefiles/vex1/index.html",
+        "imgURL": "/images/thumbs/vex1.png",
+        "pageURL": "/pages/game.html?game=vex1",
+        "name": "Vex 1"
+    },
+    "vex2": {
+        "srcURL": "/gamefiles/vex2/index.html",
+        "imgURL": "/images/thumbs/vex2.png",
+        "pageURL": "/pages/game.html?game=vex2",
+        "name": "Vex 2"
+    },
+    "vex3": {
+        "srcURL": "/gamefiles/vex3/index.html",
+        "imgURL": "/images/thumbs/vex3.png",
+        "pageURL": "/pages/game.html?game=vex3",
+        "name": "Vex 3"
+    },
+    "fancypantsadventures1": {
+        "srcURL": "/gamefiles/fancypantsadventures1/index.html",
+        "imgURL": "/images/thumbs/fancypantsadventures1.png",
+        "pageURL": "/pages/game.html?game=fancypantsadventures1",
+        "name": "FPA 1"
+    },
+    "fancypantsadventures2": {
+        "srcURL": "/gamefiles/fancypantsadventures2/index.html",
+        "imgURL": "/images/thumbs/fancypantsadventures2.png",
+        "pageURL": "/pages/game.html?game=fancypantsadventures2",
+        "name": "FPA 2"
+    },
+    "fancypantsadventures3": {
+        "srcURL": "/gamefiles/fancypantsadventures3/index.html",
+        "imgURL": "/images/thumbs/fancypantsadventures3.png",
+        "pageURL": "/pages/game.html?game=fancypantsadventures3",
+        "name": "FPA 3"
+    },
+    "earntodie1": {
+        "srcURL": "/gamefiles/earntodie1/index.html",
+        "imgURL": "/images/thumbs/earntodie1.png",
+        "pageURL": "/pages/game.html?game=earntodie1",
+        "name": "EtD 1"
+    },
+    "earntodie2": {
+        "srcURL": "/gamefiles/earntodie2/index.html",
+        "imgURL": "/images/thumbs/earntodie2.png",
+        "pageURL": "/pages/game.html?game=earntodie2",
+        "name": "EtD 2"
     }
 }

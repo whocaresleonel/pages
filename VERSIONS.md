@@ -1,3 +1,9 @@
+# **Universal UB v2.18**
+
+**Just a shit ton of games (+41 from the previous "games" update)**
+
+<br>
+
 # **Universal UB v2.17**
 
 **Added lots of games >:))) riddleschool, ducklife, papas, bloxorz, tboi, alot more.**

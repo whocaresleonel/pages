@@ -23,7 +23,8 @@ const textOptions = [
     "Originally called PDFXPLOIT",
     "Discord. Join. Now.",
     "Made by a student for students :)",
-    "Securly ver 2.97.55 :("
+    "Securly ver 2.97.55 :(",
+    "Now with 61% more games! (v2.18)"
 ];
 
 top.document.getElementById("randomtext").innerHTML = textOptions[Math.round(Math.random()*textOptions.length)]
