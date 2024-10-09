@@ -14,6 +14,7 @@ if (window.location.pathname === "/pages/games.html"){
     }
     document.getElementById("tempwarn").remove()
     document.getElementById("gamerow").innerHTML += (`
+        <br><br>
         <center>
             <h2 style="margin: 0; padding: 20px;">You've reached the bottom of the games page! Go <a href="https://forms.gle/Any4aLEQRhNm6zJA7" target="_blank" style="margin: 0; padding: 20px;">[HERE]</a> to request a game!</h2>
         </center>
