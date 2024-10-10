@@ -323,6 +323,14 @@ const miscurls = [
     "https://xn--zkr.xn--72cg7bdd3bro6b3ab9c8btw4x.com/",
     "https://intoabyss.org/"
 ];
+
+const emeraldurls = [
+    "https://as7bma.rtconsultores.com.ar/",
+    "https://mn8zl0.hklcu.com/",
+    "https://io2lx7.domg73.cc/",
+    "https://0xlty3.xn--reisefdli-v9a.ch/",
+    "https://bg54fp.xn--dominikrttimann-6vb.ch/"
+];
   
   
 document.addEventListener('DOMContentLoaded', function () {
@@ -338,6 +346,12 @@ document.addEventListener('DOMContentLoaded', function () {
 })
 
 function types(){
+    if (type == "emerald"){
+        id = window.prompt("Which Emerald url would you like to access? pick a number 1-" + emeraldurls.length)
+        iframe.style.backgroundColor = "white";
+        url = emeraldurls[id - 1]
+        iframe.src = url;
+    }
     if (type == "rh"){
         id = window.prompt("Which Rammerhead url would you like to access? pick a number 1-" + rammerheadurls.length)
         iframe.style.backgroundColor = "white";
@@ -428,8 +442,7 @@ function aboutblanker(){
     if (type == "misc"){
         url = miscurls[id-1]
     }
-    url = url.replace("https://", "")
-    window.open(baseurl + url)
+    window.open(url)
 }
 
 function redo(){

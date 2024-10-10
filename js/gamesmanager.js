@@ -4,32 +4,43 @@ const gameFilesUrl = "https://uniub.github.io/UniUBGamefiles" //Make sure this i
 var urlToOpen
 
 if (window.location.pathname === "/pages/games.html"){
-    let json = gamedata
-    console.log("There are " + Object.keys(json).length + " games.")
-    for (let i = 0; i < Object.keys(json).length; i++){
-        let keys = Object.keys(json)
-        let currentObj = json[keys[i]]
-        let games = document.getElementById("gamerow");
-        games.innerHTML += ("<a href='" + currentObj.pageURL + "'><div id='game'><img src='" + currentObj.imgURL + "' alt='Image failed to load.' loading='lazy'><p>" + currentObj.name + "</p></div></a>")
-    }
-    document.getElementById("tempwarn").remove()
-    document.getElementById("gamerow").innerHTML += (`
-        <center>
-            <h2 style="margin: 0; padding: 20px;">You've reached the bottom of the games page! Go <a href="https://forms.gle/Any4aLEQRhNm6zJA7" target="_blank" style="margin: 0; padding: 20px;">[HERE]</a> to request a game!</h2>
-        </center>
-    `)
+    fetch(gameFilesUrl + "/games.json")
+        .then(response => response.json())
+        .then(json => {
+            console.log("Game data loaded.");
+            
+            console.log("There are " + Object.keys(json).length + " games.")
+            for (let i = 0; i < Object.keys(json).length; i++){
+                let keys = Object.keys(json)
+                let currentObj = json[keys[i]]
+                let games = document.getElementById("gamerow");
+                games.innerHTML += ("<a href='" + currentObj.pageURL + "'><div id='game'><img src='" + gameFilesUrl + "/images/" + currentObj.imgURL + "' alt='Image failed to load.' loading='lazy'><p>" + currentObj.name + "</p></div></a>")
+            }
+            document.getElementById("tempwarn").remove()
+            document.getElementById("gamerow").innerHTML += (`
+                <center>
+                    <h2 style="margin: 0; padding: 20px;">You've reached the bottom of the games page! Go <a href="https://forms.gle/Any4aLEQRhNm6zJA7" target="_blank" style="margin: 0; padding: 20px;">[HERE]</a> to request a game!</h2>
+                </center>
+            `)
+        })
+        .catch(error => console.error('Error loading game data:', error));
 }
 
 async function loadGame(currentgame) {
-    let json = gamedata
-    let game = json[currentgame]
-    //window.alert(currentgame + game.srcURL + game.pageURL)
-    urlToOpen = gameFilesUrl + game.srcURL
-    try{
-        embed.src = urlToOpen;
-    }catch(error){
-        window.alert("Failed to load game data please contact me with the error below or try again later. ", error);
-    }
+    fetch(gameFilesUrl + "/games.json")
+        .then(response => response.json())
+        .then(json => {
+            console.log("Loading Game (This might print multiple times, sorry :p");
+            let game = json[currentgame]
+            //window.alert(currentgame + game.srcURL + game.pageURL)
+            urlToOpen = gameFilesUrl + game.srcURL
+            try{
+                embed.src = urlToOpen;
+            }catch(error){
+                window.alert("Failed to load game data please contact me with the error below or try again later. ", error);
+            }
+        })
+        .catch(error => console.error('Error loading game data:', error));
 }
 
 document.addEventListener('DOMContentLoaded', function () {
