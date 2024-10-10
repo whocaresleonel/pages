@@ -3,7 +3,7 @@ const embed = document.getElementById("gameframe");
 const gameFilesUrl = "https://uniub.github.io/UniUBGamefiles" //Make sure this is a url (preferrably to a different repo, in this case "UniUBGameFiles") **END THIS WITHOUT A SLASH, IT WILL WORK WITH IT BUT WILL BE BUGGY**
 var urlToOpen
 
-if (window.location.pathname === "/pages/games.html"){
+if (window.location.pathname === "/pages/games.html" || window.location.pathname === "/pages/games"){
     fetch(gameFilesUrl + "/games.json")
         .then(response => response.json())
         .then(json => {
