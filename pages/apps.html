@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html id="html" style="background: linear-gradient(rgb(24,40,81), black); background-repeat: no-repeat; background-attachment: fixed;">
+<html id="html" style="overflow-y: scroll; background: linear-gradient(rgb(24,40,81), black); background-repeat: no-repeat; background-attachment: fixed;">
     <head>
         <title>
             UniUB - Apps
@@ -20,7 +20,7 @@
     </head>
     <body>
         <div id="particles-js" style="height: 100vh; width: 100vw; position: fixed;"></div>
-        <div id="container" style="position: fixed; height: 100vh; width: 100vw;">
+        <div id="container" style="position: fixed; height: 100vh; width: 100vw; overflow-y: scroll;">
             <center>
                 <a href="/index.html"><div id="smallbar" style="padding: 0; margin-left: 5px; top: 0; margin-top: 5px; height: 50px;">
                     <h2 style="line-height: 50px;">Return to home</h2></a>
@@ -32,10 +32,23 @@
                 </div>
                 <div id="games">
                     <div id="gamerow">
-                        <a href="/pages/app.html?app=win11"><div id="game">
-                            <img src="/images/thumbs/win11.png">
-                            <p>Windows 11</p>
+                        <!--
+
+                        Heres an example of a game!
+                        Please view /js/gamesmanager.js and /json/games.json for further details on how they are added.
+
+                        <a href="/pages/game.html?game=2048"><div id="game">
+                            <img src="/images/thumbs/2048.png">
+                            <p>2048</p>
                         </div></a>
+
+                        -->
+                        <br>
+                    </div>
+                    <div id="tempwarn">
+                        <center>
+                            <h2 style="margin: 0; padding: 20px;">Apps failed to load please go to the main URL<a href="https://uniub.github.io/pages/apps.html" target="_blank" style="margin: 0; padding: 20px;">[HERE]</a>or try again later.</h2>
+                        </center>
                     </div>
                 </div>
             </center>
@@ -43,7 +56,7 @@
         </div>
     </body>
 </html>
-<script src="/js/apps.js"></script>
+<script src="/js/cloak.js"></script>
+<script src="/js/appsmanager.js"></script>
 <script src="/modules/particles.js"></script>
 <script src="/modules/particleconfig.js"></script>
-<script src="/js/cloak.js"></script>

@@ -1,4 +1,5 @@
 let favicon = document.createElement("link")
+const filesURL = "http://localhost:19370"
 let storage
 favicon.rel = "icon"
 

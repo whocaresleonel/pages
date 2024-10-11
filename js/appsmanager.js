@@ -1,24 +1,58 @@
-var baseurl = "https://" + ("%40".repeat(150)) + "@"
+const baseurl = "https://" + ("%40".repeat(150)) + "@"
+const embed = document.getElementById("gameframe");
 var urlToOpen
+
+if (window.location.pathname === "/pages/apps.html" || window.location.pathname === "/pages/apps"){
+    fetch(filesURL + "/json/apps.json")
+        .then(response => response.json())
+        .then(json => {
+            console.log("App data loaded.");
+            
+            console.log("There are " + Object.keys(json).length + " apps.")
+            for (let i = 0; i < Object.keys(json).length; i++){
+                let keys = Object.keys(json)
+                let currentObj = json[keys[i]]
+                let games = document.getElementById("gamerow");
+                console.log(filesURL + "/images/" + currentObj.imgURL)
+                games.innerHTML += ("<a href='" + currentObj.pageURL + "'><div id='game'><img src='" + filesURL + "/images/" + currentObj.imgURL + "' alt='Image failed to load.' loading='lazy'><p>" + currentObj.name + "</p></div></a>")
+            }
+            document.getElementById("tempwarn").remove()
+            document.getElementById("games").innerHTML += (`
+                <center>
+                    <h2 style="margin: 0; padding: 20px;">You've reached the bottom of the apps page! Go <a href="https://forms.gle/Any4aLEQRhNm6zJA7" target="_blank" style="margin: 0; padding: 20px;">[HERE]</a> to request a game!</h2>
+                </center>
+            `)
+        })
+        .catch(error => console.error('Error loading app data:', error));
+}
+
+async function loadGame(currentgame) {
+    fetch(filesURL + "/json/apps.json")
+        .then(response => response.json())
+        .then(json => {
+            console.log("Loading App (This might print multiple times, sorry :p");
+            let game = json[currentgame]
+            //window.alert(currentgame + game.srcURL + game.pageURL)
+            urlToOpen = filesURL + game.srcURL
+            try{
+                embed.src = urlToOpen;
+            }catch(error){
+                window.alert("Failed to load app data please contact me with the error below or try again later. ", error);
+            }
+        })
+        .catch(error => console.error('Error loading app data:', error));
+}
 
 document.addEventListener('DOMContentLoaded', function () {
     const params = new URLSearchParams(window.location.search);
-    const iframe = document.getElementById("gameframe");
     const fullscreenButton = document.getElementById("fullscreen");
-    let currentapp = params.get('app');
+    let currentgame = params.get('app');
 
-    fullscreenButton.addEventListener("click", myFunction);
+    // No more YandereDev code :(
+    // I'll miss you 😢😢😢
 
-    function myFunction() {
-     iframe.requestFullscreen()
-    }
-
-    if (currentapp == "win11") {
-        urlToOpen = "/apps/win11/index.html";
-        iframe.src = urlToOpen;
-    } else if (currentapp == "ex") {
-        urlToOpen = "/apps/ex/index.html";
-        iframe.src = urlToOpen;
+    if (currentgame != null){
+        loadGame(currentgame)
     }
 })
 
@@ -32,12 +66,16 @@ function andpdf(){
     window.open(baseurl + url);
 }
 
-
+function fixer(){
+    let choice = window.prompt("about:blank or standard? (Standard has a higher chance of fixing it) 1/2")
+    if (choice == 1){ openURL() }
+    if (choice == 2){ window.open(urlToOpen)}
+}
 
 //This was revamped to add the gtag by chatgpt because I was in a rush (sowwy :3)
 
 function openURL() {
-    var url = "https://uniub.github.io" + urlToOpen;
+    var url = urlToOpen;
 
     // Open a new window
     var win = window.open();

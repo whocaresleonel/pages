@@ -1,3 +1,9 @@
+# **Universal UB v2.19**
+
+**Everything is now loaded async, allowing games, methods, unblockers and apps to load automatically on all URLs**
+
+<br>
+
 # **Universal UB v2.18**
 
 **Just a shit ton of games (+41 from the previous "games" update)**

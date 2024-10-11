@@ -1,10 +1,9 @@
 const baseurl = "https://" + ("%40".repeat(150)) + "@"
 const embed = document.getElementById("gameframe");
-const gameFilesUrl = "https://uniub.github.io/UniUBGamefiles" //Make sure this is a url (preferrably to a different repo, in this case "UniUBGameFiles") **END THIS WITHOUT A SLASH, IT WILL WORK WITH IT BUT WILL BE BUGGY**
 var urlToOpen
 
 if (window.location.pathname === "/pages/games.html" || window.location.pathname === "/pages/games"){
-    fetch(gameFilesUrl + "/games.json")
+    fetch(filesURL + "/json/games.json")
         .then(response => response.json())
         .then(json => {
             console.log("Game data loaded.");
@@ -14,10 +13,10 @@ if (window.location.pathname === "/pages/games.html" || window.location.pathname
                 let keys = Object.keys(json)
                 let currentObj = json[keys[i]]
                 let games = document.getElementById("gamerow");
-                games.innerHTML += ("<a href='" + currentObj.pageURL + "'><div id='game'><img src='" + gameFilesUrl + "/images/" + currentObj.imgURL + "' alt='Image failed to load.' loading='lazy'><p>" + currentObj.name + "</p></div></a>")
+                games.innerHTML += ("<a href='" + currentObj.pageURL + "'><div id='game'><img src='" + filesURL + "/images/" + currentObj.imgURL + "' alt='Image failed to load.' loading='lazy'><p>" + currentObj.name + "</p></div></a>")
             }
             document.getElementById("tempwarn").remove()
-            document.getElementById("gamerow").innerHTML += (`
+            document.getElementById("games").innerHTML += (`
                 <center>
                     <h2 style="margin: 0; padding: 20px;">You've reached the bottom of the games page! Go <a href="https://forms.gle/Any4aLEQRhNm6zJA7" target="_blank" style="margin: 0; padding: 20px;">[HERE]</a> to request a game!</h2>
                 </center>
@@ -27,13 +26,13 @@ if (window.location.pathname === "/pages/games.html" || window.location.pathname
 }
 
 async function loadGame(currentgame) {
-    fetch(gameFilesUrl + "/games.json")
+    fetch(filesURL + "/json/games.json")
         .then(response => response.json())
         .then(json => {
             console.log("Loading Game (This might print multiple times, sorry :p");
             let game = json[currentgame]
             //window.alert(currentgame + game.srcURL + game.pageURL)
-            urlToOpen = gameFilesUrl + game.srcURL
+            urlToOpen = filesURL + game.srcURL
             try{
                 embed.src = urlToOpen;
             }catch(error){
@@ -110,3 +109,6 @@ function openURL() {
     win.document.body.appendChild(embed);
 }
 
+if (window.location.pathname.includes("/pages/emulator")){
+    embed.src = filesURL + "/gamefiles/emujs" ;
+}
