@@ -1,3 +1,15 @@
+# **Universal UB v2.2**
+
+**Added Ultraviolet hosted via cloudflare workers!**
+**Added 12 apps!**
+**Added img2txt**
+**Added ExtHang3r**
+**Fixed method files being on the wrong repo (Couldn't update async)**
+**Fixed fullscreen not working on quite a few pages 😎**
+**Renamed the "gamefiles" repo to "files"**
+
+<br>
+
 # **Universal UB v2.19**
 
 **Everything is now loaded async, allowing games, methods, unblockers and apps to load automatically on all URLs**

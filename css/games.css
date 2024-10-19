@@ -72,7 +72,7 @@ html, body {
     margin-left: 15px;
 }
 
-embed{
+embed, iframe{
     border: 3px solid black;
     height: 85vh;
     width: 85vw;

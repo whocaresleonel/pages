@@ -32,7 +32,8 @@ async function loadGame(currentgame) {
         .then(json => {
             console.log("Loading App (This might print multiple times, sorry :p");
             let game = json[currentgame]
-            //window.alert(currentgame + game.srcURL + game.pageURL)
+            //window.alert(acurrentgame + game.srcURL + game.pageURL)
+            if (game.name == "Yes! Movies"){ alert("Like any free movies site, theres alot of annoying click jacking ads, sorry but its the best one I could find."); }
             urlToOpen = game.srcURL
             try{
                 embed.src = urlToOpen;

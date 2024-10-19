@@ -20,7 +20,7 @@
         <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
         <link rel="stylesheet" href="/css/games.css">
         <meta name="googlebot" content="index, follow, snippet" />
-        <script src="/classwork/js/register-sw.js" defer></script>
+        <script src="/uv/js/register-sw.js" defer></script>
         </script>
     </head>
     <body>
@@ -32,21 +32,26 @@
             <div onclick="openURL()" id="smallbar" style="margin-top: 5px; margin-left: 5px; position: absolute; height: 50px; transform: translateY(-60px) translateX(210px);">
                 <center><h2 id="fixer" style="line-height: 50px;">Fixer</h2></center>
             </div>
-            <div id="smallbar" style="margin-top: 5px; margin-left: 5px; position: absolute; height: 50px; transform: translateY(-60px) translateX(420px);">
+            <div id="smallbar" style="margin-top: 5px; margin-left: 5px; position: absolute; height: 50px; transform: translateY(-60px) translateX(420px);" onclick="document.getElementById('gameframe').requestFullscreen()">
                 <center><h2 id="fullscreen" style="line-height: 50px;">Fullscreen</h2></center>
             </div>
-            <br><br><br><br>
+            <br><br><br>
             <div id="iframecontainer" style="transform: translateY(-5vh);">
                 <center>
-                    <p>Register service worker <button onclick="refresh()">[click]</button></p>
-                    <embed id="gameframe" src=""></embed>
+                    <p>Unregister service worker <button onclick="unRegister()">[click]</button></p>
+                    <br>
+                    <p>Register service worker <button onclick="register()">[click]</button></p>
+                    <br>
+                    <iframe id="gameframe" src=""></iframe>
                 </center>
             </div>
         </div>
     </body>
 </html>
 <script>
-async function refresh(){
+async function register(){
+    //Registers the uv sw
+    
     try {
         await registerSW();
         location.reload();
@@ -55,6 +60,18 @@ async function refresh(){
         errorCode.textContent = err.toString();
         registerButton.classList.remove("show");
     }
+}
+
+async function unRegister(){
+    //Unregisters all sw
+
+    navigator.serviceWorker.getRegistrations().then(registrations => {
+        for (const registration of registrations) {
+            registration.unregister();
+        } 
+    });
+
+    location.reload
 }
 </script>
 <script src="/js/appsmanager.js"></script>
