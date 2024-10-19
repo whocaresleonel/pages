@@ -33,7 +33,7 @@ async function loadGame(currentgame) {
             console.log("Loading App (This might print multiple times, sorry :p");
             let game = json[currentgame]
             //window.alert(currentgame + game.srcURL + game.pageURL)
-            urlToOpen = filesURL + game.srcURL
+            urlToOpen = game.srcURL
             try{
                 embed.src = urlToOpen;
             }catch(error){
