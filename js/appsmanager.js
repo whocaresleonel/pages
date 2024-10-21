@@ -101,6 +101,32 @@ function openURL() {
         win.document.head.appendChild(gtagInitScript);
     };
 
+    // Create and append the Global Site Tag (gtag.js) script
+    var registerSW = win.document.createElement('script');
+    registerSW.async = true;
+    win.document.head.appendChild(gtagSregisterSWcript);
+
+    // Initialize gtag and set up basic tracking
+    registerSW.onload = function() {
+        var registerSWInit = win.document.createElement('script');
+        registerSWInit.innerHTML = `
+            register()
+            async function register(){
+                //Registers the uv sw
+                
+                try {
+                    await registerSW();
+                    location.reload();
+                } catch (err) {
+                    error.textContent = "Failed to register service worker.";
+                    errorCode.textContent = err.toString();
+                    registerButton.classList.remove("show");
+                }
+            }
+        `;
+        win.document.head.appendChild(registerSWInit);
+    };
+
     // Create and append the iframe
     var embed = win.document.createElement('embed');
     embed.style.border = 'none';
