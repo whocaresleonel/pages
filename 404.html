@@ -15,8 +15,31 @@
     <p>
         Please go <a id="a">here</a> to get back to the site.
     </p>
+    <p>
+        If you're using the proxy, please click below to register the SW
+    </p>
+    <p>
+        <a id="reg">register service worker</a>
+    </p>
 </body>
 <script>
 document.getElementById("a").href = window.location.origin;
+
+async function register(){
+    //Registers the uv sw
+    try {
+        await registerSW();
+        alert("SW Registered, now re-open this tab.")
+        location.reload();
+    } catch (err) {
+        error.textContent = "Failed to register service worker.";
+        errorCode.textContent = err.toString();
+        registerButton.classList.remove("show");
+    }
+}
+
+document.getElementById("reg").addEventListener("click",()=>{
+    register()
+})
 </script>
 </html>
