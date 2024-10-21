@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="background-color: white;">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,8 +28,7 @@ async function register(){
     //Registers the uv sw
     try {
         await registerSW();
-        alert("SW Registered, now re-open this tab.")
-        location.reload();
+        alert("SW Registered, now reload this tab.")
     } catch (err) {
         error.textContent = "Failed to register service worker.";
         errorCode.textContent = err.toString();
