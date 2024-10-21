@@ -29,6 +29,7 @@ async function register(){
     try {
         await registerSW();
         alert("SW Registered, now reload this tab.")
+        location.reload();
     } catch (err) {
         error.textContent = "Failed to register service worker.";
         errorCode.textContent = err.toString();
