@@ -18,9 +18,8 @@
     <p>
         If you're using the proxy, please click below to register the SW
     </p>
-    <p>
-        <a id="reg">register service worker</a>
-    </p>
+    <br>
+    <button onclick="register()">register service worker</button>
 </body>
 <script>
 document.getElementById("a").href = window.location.origin;
@@ -37,9 +36,5 @@ async function register(){
         registerButton.classList.remove("show");
     }
 }
-
-document.getElementById("reg").addEventListener("click",()=>{
-    register()
-})
 </script>
 </html>
