@@ -1,3 +1,5 @@
+--Change msg on title from 2.2 release to a reminder to join the dsc server.
+
 # **Universal UB v2.2**
 
 **Added Ultraviolet hosted via cloudflare workers!**
